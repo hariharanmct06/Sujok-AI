@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "faq-q3": "Is Sujok AI suitable for beginners?",
       "faq-a3": "Yes, absolutely! The AI is designed to adapt its answers. Beginners can ask simple questions like \"Where is the stomach point on my hand?\" and receive clear, non-technical guidance. It also supports advanced energy concepts for experienced practitioners.",
       "faq-q4": "Can therapists use Sujok AI in practice?",
-      "faq-a4": "Yes. Therapists can use Sujok AI as a quick-consultation tool to verify points, double-check Six Ki energy relationships, review Triorigin system mappings, or get inspiration for treatment setups (e.g. choice of seeds, magnet polarities) during patient visits.",
+      "faq-a4": "Yes. Therapists can use Sujok AI as a supportive tool for diagnosing diseases and obtaining a second opinion. However, because it is an AI chatbot, it cannot always be 100% accurate. Practitioners should always verify its recommendations against their own professional clinical judgment.",
       "faq-q5": "Does Sujok AI provide educational guidance?",
       "faq-a5": "Yes, Sujok AI excels at education. It provides systematic descriptions of standard correspondence systems, insect systems, Triorigin theory, and meridian systems. However, please note that it is an informational tool and does not issue formal certifications.",
       
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "footer-tagline": "Your Intelligent Sujok Therapy Assistant",
       "footer-credit": "Created & Marketed by Hari Bots and Business Solutions",
       "footer-disclaimer-title": "Medical Disclaimer",
-      "footer-disclaimer-text": "\"Sujok AI is designed for educational and informational purposes only. It does not replace professional medical advice, diagnosis, or treatment.\"",
+      "footer-disclaimer-text": "\"Sujok AI is designed for educational and informational purposes only. It is useful for Sujok therapists to diagnose diseases as a second opinion. However, as an AI chatbot, it cannot always be 100% accurate and does not replace professional medical advice, diagnosis, or treatment.\"",
       "footer-copyright": "© 2026 Sujok AI. All Rights Reserved.",
       "footer-developer": "Developed with care by Hari Bots",
       
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "faq-q3": "சுஜோக் AI ஆரம்பநிலையினருக்கு ஏற்றதா?",
       "faq-a3": "ஆம், நிச்சயமாக! இந்த AI ஆரம்பநிலையினருக்கு எளிய மொழியில் பதிலளிக்கும். \"கை கட்டை விரலில் வயிறு எங்குள்ளது?\" போன்ற எளிய கேள்விகளைக் கேட்டுப் பதில்களைப் பெறலாம். அத்துடன் அனுபவம் வாய்ந்தவர்களுக்கான மேம்பட்ட கோட்பாடுகளையும் விளக்கும்.",
       "faq-q4": "சிகிச்சையாளர்கள் தங்கள் மருத்துவத்தில் சுஜோக் AI ஐப் பயன்படுத்தலாமா?",
-      "faq-a4": "ஆம். சிகிச்சையாளர்கள் நோயாளியைப் பார்க்கும் போது புள்ளிகளைச் சரிபார்க்கவும், ஆற்றல் ஓட்டங்களை ஒப்பிடவும், விதைகள் மற்றும் காந்த சிகிச்சைப் புள்ளிகளைத் திட்டமிடவும் சுஜோக் AI ஐ ஒரு உடனடி வழிகாட்டியாகப் பயன்படுத்தலாம்.",
+      "faq-a4": "ஆம். சிகிச்சையாளர்கள் நோய்களைக் கண்டறிவதற்கும் இரண்டாவது கருத்தைப் பெறுவதற்கும் சுஜோக் AI ஐ ஒரு துணைக் கருவியாகப் பயன்படுத்தலாம். இருப்பினும், இது ஒரு AI சாட்பாட் என்பதால், இது எப்போதும் 100% துல்லியமாக இருக்க முடியாது. பயிற்சியாளர்கள் எப்போதும் அதன் பரிந்துரைகளைத் தங்கள் சொந்த தொழில்முறை மருத்துவக் கணிப்புடன் சரிபார்க்க வேண்டும்.",
       "faq-q5": "சுஜோக் AI கல்வி சார்ந்த வழிகாட்டல்களை வழங்குகிறதா?",
       "faq-a5": "ஆம், சுஜோக் AI கல்வியில் சிறந்து விளங்குகிறது. இது நிலையான தொடர்பு, பூச்சி அமைப்பு, மெரிடியன் அமைப்புகளை முறையாக விளக்குகிறது. இருப்பினும், இது ஒரு தகவல் கருவி மட்டுமே, சான்றிதழ்களை வழங்காது.",
       
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "footer-tagline": "உங்களின் அறிவார்ந்த சுஜோக் சிகிச்சை உதவியாளர்",
       "footer-credit": "உருவாக்கம் மற்றும் சந்தைப்படுத்துதல்: ஹரி பாட்ஸ் மற்றும் பிசினஸ் சொல்யூஷன்ஸ்",
       "footer-disclaimer-title": "மருத்துவ மறுப்பு",
-      "footer-disclaimer-text": "\"சுஜோக் AI கல்வி மற்றும் தகவல் நோக்கங்களுக்காக மட்டுமே வடிவமைக்கப்பட்டுள்ளது. இது தொழில்முறை மருத்துவ ஆலோசனை, கண்டறிதல் அல்லது சிகிச்சைக்கு மாற்றாகாது.\"",
+      "footer-disclaimer-text": "\"சுஜோக் AI கல்வி மற்றும் தகவல் நோக்கங்களுக்காக மட்டுமே வடிவமைக்கப்பட்டுள்ளது. இது சுஜோக் சிகிச்சையாளர்கள் நோய்களைக் கண்டறிவதற்கு ஒரு இரண்டாவது கருத்தாக (Second Opinion) பயனுள்ளதாக இருக்கும். இருப்பினும், இது ஒரு AI சாட்பாட் என்பதால், இது எப்போதும் 100% துல்லியமாக இருக்க முடியாது மற்றும் தொழில்முறை மருத்துவ ஆலோசனை, கண்டறிதல் அல்லது சிகிச்சைக்கு மாற்றாகாது.\"",
       "footer-copyright": "© 2026 சுஜோக் AI. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
       "footer-developer": "அன்புடன் உருவாக்கியவர் ஹரி பாட்ஸ்",
       
