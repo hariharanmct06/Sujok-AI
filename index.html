@@ -32,7 +32,7 @@
 
   <!-- Top Announcement Bar -->
   <div class="announcement-bar" id="announcement">
-    <p>⚡ Experience the Future of Natural Healing with Sujok AI!</p>
+    <p data-translate="announcement">⚡ Experience the Future of Natural Healing with Sujok AI!</p>
   </div>
 
   <!-- Header Section -->
@@ -45,18 +45,24 @@
       
       <!-- Desktop Navigation -->
       <nav class="desktop-nav" aria-label="Main Navigation">
-        <a href="#hero" class="nav-link active">Home</a>
-        <a href="#about" class="nav-link">About Sujok</a>
-        <a href="#founder" class="nav-link">Founder</a>
-        <a href="#features" class="nav-link">Features</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#faq" class="nav-link">FAQ</a>
-        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#hero" class="nav-link active" data-translate="nav-home">Home</a>
+        <a href="#about" class="nav-link" data-translate="nav-about">About Sujok</a>
+        <a href="#founder" class="nav-link" data-translate="nav-founder">Founder</a>
+        <a href="#features" class="nav-link" data-translate="nav-features">Features</a>
+        <a href="#pricing" class="nav-link" data-translate="nav-pricing">Pricing</a>
+        <a href="#faq" class="nav-link" data-translate="nav-faq">FAQ</a>
+        <a href="#contact" class="nav-link" data-translate="nav-contact">Contact</a>
       </nav>
       
-      <!-- Header CTA -->
-      <div class="header-cta">
-        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+      <!-- Language Switcher & Header CTA -->
+      <div class="header-actions-wrapper">
+        <div class="lang-switch" id="langSwitch" role="button" aria-label="Switch Language">
+          <span class="lang-option active" data-lang="en">EN</span>
+          <span class="lang-option" data-lang="ta">தமிழ்</span>
+        </div>
+        <div class="header-cta">
+          <a href="#contact" class="btn btn-primary btn-sm" data-translate="nav-cta">Get in Touch</a>
+        </div>
       </div>
       
       <!-- Mobile Menu Toggle -->
@@ -71,14 +77,23 @@
   <!-- Mobile Drawer Menu -->
   <div class="mobile-nav-drawer" id="mobileDrawer">
     <nav class="mobile-nav" aria-label="Mobile Navigation">
-      <a href="#hero" class="mobile-nav-link">Home</a>
-      <a href="#about" class="mobile-nav-link">About Sujok</a>
-      <a href="#founder" class="mobile-nav-link">Founder</a>
-      <a href="#features" class="mobile-nav-link">Features</a>
-      <a href="#pricing" class="mobile-nav-link">Pricing</a>
-      <a href="#faq" class="mobile-nav-link">FAQ</a>
-      <a href="#contact" class="mobile-nav-link">Contact</a>
-      <a href="#contact" class="btn btn-primary mobile-cta">Get in Touch</a>
+      <a href="#hero" class="mobile-nav-link" data-translate="nav-home">Home</a>
+      <a href="#about" class="mobile-nav-link" data-translate="nav-about">About Sujok</a>
+      <a href="#founder" class="mobile-nav-link" data-translate="nav-founder">Founder</a>
+      <a href="#features" class="mobile-nav-link" data-translate="nav-features">Features</a>
+      <a href="#pricing" class="mobile-nav-link" data-translate="nav-pricing">Pricing</a>
+      <a href="#faq" class="mobile-nav-link" data-translate="nav-faq">FAQ</a>
+      <a href="#contact" class="mobile-nav-link" data-translate="nav-contact">Contact</a>
+      
+      <div class="mobile-lang-switch-container">
+        <span class="mobile-lang-label">Language / மொழி:</span>
+        <div class="lang-switch" id="mobileLangSwitch" role="button">
+          <span class="lang-option active" data-lang="en">EN</span>
+          <span class="lang-option" data-lang="ta">தமிழ்</span>
+        </div>
+      </div>
+      
+      <a href="#contact" class="btn btn-primary mobile-cta" data-translate="nav-cta">Get in Touch</a>
     </nav>
   </div>
 
@@ -89,26 +104,26 @@
       <div class="container">
         <!-- Hero Text -->
         <div class="hero-content hero-centered">
-          <div class="tag-badge">AI Healthcare Assistant</div>
-          <h1 class="hero-title">Ask Anything About <span class="gradient-text">Sujok Therapy</span></h1>
-          <p class="hero-subtitle">Powered by Artificial Intelligence, Built for Sujok Practitioners, Students, and Therapists.</p>
-          <p class="hero-description">Instantly access Sujok knowledge, correspondence systems, Six Ki theory, meridian info, seed therapy techniques, and clinical insights.</p>
+          <div class="tag-badge" data-translate="hero-badge">AI Healthcare Assistant</div>
+          <h1 class="hero-title" data-translate="hero-title">Ask Anything About <span class="gradient-text">Sujok Therapy</span></h1>
+          <p class="hero-subtitle" data-translate="hero-subtitle">Powered by Artificial Intelligence, Built for Sujok Practitioners, Students, and Therapists.</p>
+          <p class="hero-description" data-translate="hero-description">Instantly access Sujok knowledge, correspondence systems, Six Ki theory, meridian info, seed therapy techniques, and clinical insights.</p>
           <div class="hero-actions">
-            <a href="#pricing" class="btn btn-primary">Get Sujok AI</a>
-            <a href="#about" class="btn btn-secondary">Learn Sujok</a>
+            <a href="#pricing" class="btn btn-primary" data-translate="hero-cta-get">Get Sujok AI</a>
+            <a href="#about" class="btn btn-secondary" data-translate="hero-cta-learn">Learn Sujok</a>
           </div>
           <div class="hero-stats">
             <div class="stat-item">
               <span class="stat-number">24/7</span>
-              <span class="stat-label">WhatsApp Support</span>
+              <span class="stat-label" data-translate="hero-stat-1">WhatsApp Support</span>
             </div>
             <div class="stat-item">
               <span class="stat-number">Instant</span>
-              <span class="stat-label">Sujok Guidance</span>
+              <span class="stat-label" data-translate="hero-stat-2">Sujok Guidance</span>
             </div>
             <div class="stat-item">
               <span class="stat-number">100%</span>
-              <span class="stat-label">Natural Healing</span>
+              <span class="stat-label" data-translate="hero-stat-3">Natural Healing</span>
             </div>
           </div>
         </div>
@@ -119,17 +134,17 @@
     <section class="about-section" id="about">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">About Sujok Therapy</h2>
+          <h2 class="section-title" data-translate="about-title">About Sujok Therapy</h2>
           <div class="title-underline"></div>
         </div>
         
         <div class="about-grid">
           <div class="about-text-content">
-            <h3 class="about-subtitle">The Science of Hand and Foot Healing</h3>
-            <p class="about-description">
+            <h3 class="about-subtitle" data-translate="about-subtitle">The Science of Hand and Foot Healing</h3>
+            <p class="about-description" data-translate="about-desc-1">
               Sujok Therapy is a natural healing system developed by <strong>Professor Park Jae Woo</strong> of South Korea. The term <strong>"Su"</strong> means Hand and <strong>"Jok"</strong> means Foot.
             </p>
-            <p class="about-description">
+            <p class="about-description" data-translate="about-desc-2">
               Sujok is based on the principle that the entire human body is represented on the hands and feet. These extremities act as "remote control" panels of health. By stimulating corresponding active points, healing impulses are sent directly to affected organs, adjusting energy and initiating natural recovery processes without medications.
             </p>
             
@@ -139,8 +154,8 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
                 </div>
                 <div>
-                  <h4>100% Natural</h4>
-                  <p>Non-invasive healing methods using pressure, seeds, magnets, and colors.</p>
+                  <h4 data-translate="about-princ-1-title">100% Natural</h4>
+                  <p data-translate="about-princ-1-desc">Non-invasive healing methods using pressure, seeds, magnets, and colors.</p>
                 </div>
               </div>
               <div class="principle-item">
@@ -148,8 +163,8 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
                 </div>
                 <div>
-                  <h4>Rapid Relief</h4>
-                  <p>Often produces fast relief for physical discomfort when points are stimulated correctly.</p>
+                  <h4 data-translate="about-princ-2-title">Rapid Relief</h4>
+                  <p data-translate="about-princ-2-desc">Often produces fast relief for physical discomfort when points are stimulated correctly.</p>
                 </div>
               </div>
             </div>
@@ -159,8 +174,8 @@
             <div class="image-wrapper">
               <img src="assets/sujok-ai-logo.jpg" alt="Sujok Correspondence Concept Logo" class="about-showcase-img">
               <div class="image-overlay-card">
-                <h4>Sujok Principle</h4>
-                <p>"The body project is on the hand."</p>
+                <h4 data-translate="about-overlay-title">Sujok Principle</h4>
+                <p data-translate="about-overlay-desc">"The body project is on the hand."</p>
               </div>
             </div>
           </div>
@@ -172,7 +187,7 @@
     <section class="founder-section" id="founder">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Founder of Sujok</h2>
+          <h2 class="section-title" data-translate="founder-title">Founder of Sujok</h2>
           <div class="title-underline"></div>
         </div>
         
@@ -181,23 +196,23 @@
             <div class="founder-bio">
               <div class="founder-meta">
                 <h3 class="founder-name">Professor Park Jae Woo</h3>
-                <span class="founder-lifespan">1942 – 2010</span>
+                <span class="founder-lifespan" data-translate="founder-lifespan">1942 – 2010</span>
               </div>
-              <blockquote class="founder-quote">
+              <blockquote class="founder-quote" data-translate="founder-quote">
                 "Modern medicine treats the body, but Sujok treats the human life and spirit through natural wisdom."
               </blockquote>
-              <p class="founder-description">
+              <p class="founder-description" data-translate="founder-desc-1">
                 Professor Park Jae Woo was a South Korean scientist, philosopher, and the visionary founder of Sujok Therapy. After graduating from Seoul National University, his deep understanding of Eastern philosophy and science led him to develop the Sujok correspondence systems in the 1980s.
               </p>
-              <p class="founder-description">
+              <p class="founder-description" data-translate="founder-desc-2">
                 His groundbreaking work introduced the standard correspondence system, insect correspondence system, energy flow concepts, Triorigin theory, Six Ki theory, Smile Meditation, and Twist Therapy. His holistic healing methods are today practiced and recognized by thousands of medical practitioners, acupuncture specialists, and students globally.
               </p>
               
               <div class="achievements">
-                <div class="achievement-badge">Scientist</div>
-                <div class="achievement-badge">Philosopher</div>
-                <div class="achievement-badge">Author</div>
-                <div class="achievement-badge">Global Teacher</div>
+                <div class="achievement-badge" data-translate="founder-badge-1">Scientist</div>
+                <div class="achievement-badge" data-translate="founder-badge-2">Philosopher</div>
+                <div class="achievement-badge" data-translate="founder-badge-3">Author</div>
+                <div class="achievement-badge" data-translate="founder-badge-4">Global Teacher</div>
               </div>
             </div>
             
@@ -213,9 +228,9 @@
     <section class="features-section" id="features">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">How Sujok AI Helps</h2>
+          <h2 class="section-title" data-translate="features-title">How Sujok AI Helps</h2>
           <div class="title-underline"></div>
-          <p class="section-subtitle">Unlock immediate insights with our custom-trained AI assistant that supports you at every step.</p>
+          <p class="section-subtitle" data-translate="features-subtitle">Unlock immediate insights with our custom-trained AI assistant that supports you at every step.</p>
         </div>
         
         <div class="features-grid">
@@ -224,8 +239,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
             </div>
-            <h3 class="feature-card-title">Ask Questions</h3>
-            <p class="feature-card-desc">Ask specific health or concept questions and receive detailed, structured descriptions instantly.</p>
+            <h3 class="feature-card-title" data-translate="feat-1-title">Ask Questions</h3>
+            <p class="feature-card-desc" data-translate="feat-1-desc">Ask specific health or concept questions and receive detailed, structured descriptions instantly.</p>
           </div>
           
           <!-- Card 2 -->
@@ -233,8 +248,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v11M9 9l3-3 3 3"/></svg>
             </div>
-            <h3 class="feature-card-title">Learn Sujok Concepts</h3>
-            <p class="feature-card-desc">Master correspondence rules, insect systems, and micro-meridians with comprehensive AI breakdowns.</p>
+            <h3 class="feature-card-title" data-translate="feat-2-title">Learn Sujok Concepts</h3>
+            <p class="feature-card-desc" data-translate="feat-2-desc">Master correspondence rules, insect systems, and micro-meridians with comprehensive AI breakdowns.</p>
           </div>
           
           <!-- Card 3 -->
@@ -242,8 +257,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 14.14 14.14M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </div>
-            <h3 class="feature-card-title">Find Correspondence Points</h3>
-            <p class="feature-card-desc">Quickly find exactly where internal organs correspond on your hands or feet for stimulation.</p>
+            <h3 class="feature-card-title" data-translate="feat-3-title">Find Correspondence Points</h3>
+            <p class="feature-card-desc" data-translate="feat-3-desc">Quickly find exactly where internal organs correspond on your hands or feet for stimulation.</p>
           </div>
           
           <!-- Card 4 -->
@@ -251,8 +266,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
-            <h3 class="feature-card-title">Understand Energy Theories</h3>
-            <p class="feature-card-desc">Gain simplified guidance on Six Ki, Yin-Yang balance, Triorigin, and Meridian constitution theories.</p>
+            <h3 class="feature-card-title" data-translate="feat-4-title">Understand Energy Theories</h3>
+            <p class="feature-card-desc" data-translate="feat-4-desc">Gain simplified guidance on Six Ki, Yin-Yang balance, Triorigin, and Meridian constitution theories.</p>
           </div>
           
           <!-- Card 5 -->
@@ -260,8 +275,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/><path d="M12 11v6M9 14h6"/></svg>
             </div>
-            <h3 class="feature-card-title">Improve Clinical Knowledge</h3>
-            <p class="feature-card-desc">Enhance your clinical cases database, diagnostic precision, and therapeutic success rate.</p>
+            <h3 class="feature-card-title" data-translate="feat-5-title">Improve Clinical Knowledge</h3>
+            <p class="feature-card-desc" data-translate="feat-5-desc">Enhance your clinical cases database, diagnostic precision, and therapeutic success rate.</p>
           </div>
           
           <!-- Card 6 -->
@@ -269,8 +284,8 @@
             <div class="feature-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
-            <h3 class="feature-card-title">Support Daily Practice</h3>
-            <p class="feature-card-desc">Use it as a pocket companion during diagnostic procedures, patient consultations, or teaching.</p>
+            <h3 class="feature-card-title" data-translate="feat-6-title">Support Daily Practice</h3>
+            <p class="feature-card-desc" data-translate="feat-6-desc">Use it as a pocket companion during diagnostic procedures, patient consultations, or teaching.</p>
           </div>
         </div>
       </div>
@@ -282,51 +297,51 @@
         <div class="why-choose-grid">
           <!-- Benefits text -->
           <div class="why-choose-content">
-            <h2 class="section-title text-left">Why Choose Sujok AI</h2>
+            <h2 class="section-title text-left" data-translate="why-title">Why Choose Sujok AI</h2>
             <div class="title-underline left-aligned"></div>
-            <p class="section-subtitle-left">Specifically tailored for therapists, acupuncture students, and holistic healing practitioners.</p>
+            <p class="section-subtitle-left" data-translate="why-subtitle">Specifically tailored for therapists, acupuncture students, and holistic healing practitioners.</p>
             
             <div class="benefits-list">
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>Specialized for Sujok Therapy</strong>
-                  <p>Trained with dedicated literature, Triorigin concepts, and specific point correspondence details.</p>
+                  <strong data-translate="why-item-1-title">Specialized for Sujok Therapy</strong>
+                  <p data-translate="why-item-1-desc">Trained with dedicated literature, Triorigin concepts, and specific point correspondence details.</p>
                 </div>
               </div>
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>Fast AI Responses</strong>
-                  <p>Get reliable, clear answers within seconds without browsing through voluminous textbooks.</p>
+                  <strong data-translate="why-item-2-title">Fast AI Responses</strong>
+                  <p data-translate="why-item-2-desc">Get reliable, clear answers within seconds without browsing through voluminous textbooks.</p>
                 </div>
               </div>
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>Educational Support</strong>
-                  <p>Perfect learning aid for students preparing for certification levels or practicing point locations.</p>
+                  <strong data-translate="why-item-3-title">Educational Support</strong>
+                  <p data-translate="why-item-3-desc">Perfect learning aid for students preparing for certification levels or practicing point locations.</p>
                 </div>
               </div>
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>User-Friendly Interface</strong>
-                  <p>Intuitive chatbot style designed to be accessible for practitioners of all ages and tech levels.</p>
+                  <strong data-translate="why-item-4-title">User-Friendly Interface</strong>
+                  <p data-translate="why-item-4-desc">Intuitive chatbot style designed to be accessible for practitioners of all ages and tech levels.</p>
                 </div>
               </div>
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>Continuous Learning</strong>
-                  <p>System algorithms are continuously updated with more verified research, case studies, and charts.</p>
+                  <strong data-translate="why-item-5-title">Continuous Learning</strong>
+                  <p data-translate="why-item-5-desc">System algorithms are continuously updated with more verified research, case studies, and charts.</p>
                 </div>
               </div>
               <div class="benefit-list-item">
                 <span class="check-icon">✓</span>
                 <div>
-                  <strong>Available Anytime</strong>
-                  <p>Access intelligence 24/7 on the go via your mobile, tablet, or desktop browser.</p>
+                  <strong data-translate="why-item-6-title">Available Anytime</strong>
+                  <p data-translate="why-item-6-desc">Access intelligence 24/7 on the go via your mobile, tablet, or desktop browser.</p>
                 </div>
               </div>
             </div>
@@ -337,29 +352,29 @@
             <div class="glass-infographic-card">
               <div class="infographic-header">
                 <div class="pulse-ring"></div>
-                <h4>Sujok AI System Status</h4>
+                <h4 data-translate="why-visual-title">Sujok AI System Status</h4>
               </div>
               <div class="infographic-body">
                 <div class="metrics-grid">
                   <div class="metric-box">
                     <span class="metric-value">24/7</span>
-                    <span class="metric-label">Availability</span>
+                    <span class="metric-label" data-translate="why-visual-stat-1-label">Availability</span>
                   </div>
                   <div class="metric-box">
                     <span class="metric-value">&lt; 1s</span>
-                    <span class="metric-label">Response Time</span>
+                    <span class="metric-label" data-translate="why-visual-stat-2-label">Response Time</span>
                   </div>
                   <div class="metric-box">
                     <span class="metric-value">8+</span>
-                    <span class="metric-label">Core Modules</span>
+                    <span class="metric-label" data-translate="why-visual-stat-3-label">Core Modules</span>
                   </div>
                   <div class="metric-box">
                     <span class="metric-value">100%</span>
-                    <span class="metric-label">Secure Access</span>
+                    <span class="metric-label" data-translate="why-visual-stat-4-label">Secure Access</span>
                   </div>
                 </div>
                 <div class="info-card-footer">
-                  <p>✨ Built to preserve Professor Park Jae Woo's legacy through cutting-edge Artificial Intelligence.</p>
+                  <p data-translate="why-visual-footer">✨ Built to preserve Professor Park Jae Woo's legacy through cutting-edge Artificial Intelligence.</p>
                 </div>
               </div>
             </div>
@@ -372,34 +387,34 @@
     <section class="pricing-section" id="pricing">
       <div class="container">
         <div class="section-header">
-          <span class="tag-badge">Premium AI Assistant</span>
-          <h2 class="section-title">Sujok AI Assistant Pricing</h2>
+          <span class="tag-badge" data-translate="pricing-tag">Premium AI Assistant</span>
+          <h2 class="section-title" data-translate="pricing-title">Sujok AI Assistant Pricing</h2>
           <div class="title-underline"></div>
-          <p class="section-subtitle">Get full access to the intelligent Sujok Therapy Assistant. Choose the subscription plan that fits your clinical practice.</p>
+          <p class="section-subtitle" data-translate="pricing-subtitle">Get full access to the intelligent Sujok Therapy Assistant. Choose the subscription plan that fits your clinical practice.</p>
         </div>
         
         <div class="pricing-grid">
           <!-- Monthly Plan -->
           <div class="pricing-card">
             <div class="pricing-header">
-              <h3 class="plan-name">Monthly Plan</h3>
-              <p class="plan-desc">Perfect for testing or short-term clinical support</p>
+              <h3 class="plan-name" data-translate="plan-1-name">Monthly Plan</h3>
+              <p class="plan-desc" data-translate="plan-1-desc">Perfect for testing or short-term clinical support</p>
               <div class="plan-price">
                 <span class="currency">₹</span>
                 <span class="price-val">1,000</span>
-                <span class="duration">/ month</span>
+                <span class="duration" data-translate="plan-1-duration">/ month</span>
               </div>
             </div>
             <div class="pricing-body">
               <ul class="plan-features">
-                <li><span>✓</span> 24/7 AI-powered Sujok assistance</li>
-                <li><span>✓</span> Instant answers to therapy questions</li>
-                <li><span>✓</span> Correspondence point guides</li>
-                <li><span>✓</span> Six Ki and Energy Theory guidance</li>
-                <li><span>✓</span> Seed therapy recommendations</li>
-                <li><span>✓</span> Mobile & desktop responsive access</li>
+                <li><span>✓</span> <span data-translate="plan-feat-1">24/7 AI-powered Sujok assistance</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-2">Instant answers to therapy questions</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-3">Correspondence point guides</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-4">Six Ki and Energy Theory guidance</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-5">Seed therapy recommendations</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-6">Mobile & desktop responsive access</span></li>
               </ul>
-              <a href="https://wa.me/918667808803?text=Hi!%20I%20want%20to%20subscribe%20to%20the%20Sujok%20AI%20Monthly%20Plan%20(1,000%20INR/month)." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Subscribe Monthly</a>
+              <a href="https://wa.me/918667808803?text=Hi!%20I%20want%20to%20subscribe%20to%20the%20Sujok%20AI%20Monthly%20Plan%20(1,000%20INR/month)." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block" data-translate="plan-1-btn">Subscribe Monthly</a>
             </div>
           </div>
           
@@ -407,27 +422,27 @@
           <div class="pricing-card popular-card">
             <div class="popular-ribbon">Best Value</div>
             <div class="pricing-header">
-              <h3 class="plan-name">Annual Plan</h3>
-              <p class="plan-desc">Best for dedicated students and busy practitioners</p>
+              <h3 class="plan-name" data-translate="plan-2-name">Annual Plan</h3>
+              <p class="plan-desc" data-translate="plan-2-desc">Best for dedicated students and busy practitioners</p>
               <div class="plan-price">
                 <span class="currency">₹</span>
                 <span class="price-val">10,000</span>
-                <span class="duration">/ 12 months</span>
+                <span class="duration" data-translate="plan-2-duration">/ 12 months</span>
               </div>
-              <div class="price-savings">Save ₹2,000 INR (Get 2 Months Free!)</div>
+              <div class="price-savings" data-translate="plan-2-savings">Save ₹2,000 INR (Get 2 Months Free!)</div>
             </div>
             <div class="pricing-body">
               <ul class="plan-features">
-                <li><span>✓</span> 24/7 AI-powered Sujok assistance</li>
-                <li><span>✓</span> Instant answers to therapy questions</li>
-                <li><span>✓</span> Correspondence point guides</li>
-                <li><span>✓</span> Six Ki and Energy Theory guidance</li>
-                <li><span>✓</span> Seed therapy recommendations</li>
-                <li><span>✓</span> Mobile & desktop responsive access</li>
-                <li><span>✓</span> Priority customer support</li>
-                <li><span>✓</span> Advanced Triorigin insights</li>
+                <li><span>✓</span> <span data-translate="plan-feat-1">24/7 AI-powered Sujok assistance</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-2">Instant answers to therapy questions</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-3">Correspondence point guides</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-4">Six Ki and Energy Theory guidance</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-5">Seed therapy recommendations</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-6">Mobile & desktop responsive access</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-7">Priority customer support</span></li>
+                <li><span>✓</span> <span data-translate="plan-feat-8">Advanced Triorigin insights</span></li>
               </ul>
-              <a href="https://wa.me/918667808803?text=Hi!%20I%20want%20to%20subscribe%20to%20the%20Sujok%20AI%20Annual%20Plan%20(10,000%20INR/year)." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Subscribe Annually</a>
+              <a href="https://wa.me/918667808803?text=Hi!%20I%20want%20to%20subscribe%20to%20the%20Sujok%20AI%20Annual%20Plan%20(10,000%20INR/year)." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block" data-translate="plan-2-btn">Subscribe Annually</a>
             </div>
           </div>
         </div>
@@ -438,7 +453,7 @@
     <section class="faq-section" id="faq">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Frequently Asked Questions</h2>
+          <h2 class="section-title" data-translate="faq-title">Frequently Asked Questions</h2>
           <div class="title-underline"></div>
         </div>
         
@@ -446,55 +461,55 @@
           <!-- Accordion Item 1 -->
           <div class="faq-item">
             <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">What is Sujok Therapy?</span>
+              <span class="faq-question" data-translate="faq-q1">What is Sujok Therapy?</span>
               <span class="faq-icon-plus"></span>
             </button>
             <div class="faq-content">
-              <p>Sujok Therapy is an alternative healing method developed by South Korean scientist Professor Park Jae Woo. It operates on the principle that the entire human body is mapped onto the hands ("Su") and feet ("Jok"). By stimulating specific points on these extremities through pressure, seeds, magnets, or colors, therapists can balance energy and treat various physical and emotional conditions.</p>
+              <p data-translate="faq-a1">Sujok Therapy is an alternative healing method developed by South Korean scientist Professor Park Jae Woo. It operates on the principle that the entire human body is mapped onto the hands ("Su") and feet ("Jok"). By stimulating specific points on these extremities through pressure, seeds, magnets, or colors, therapists can balance energy and treat various physical and emotional conditions.</p>
             </div>
           </div>
           
           <!-- Accordion Item 2 -->
           <div class="faq-item">
             <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Who can use Sujok AI?</span>
+              <span class="faq-question" data-translate="faq-q2">Who can use Sujok AI?</span>
               <span class="faq-icon-plus"></span>
             </button>
             <div class="faq-content">
-              <p>Sujok AI is designed for anyone interested in alternative healing: professional therapists looking for a rapid reference guide, acupuncture/acupressure students, wellness coaches, or beginners who want to learn how to locate correspondence zones on their hands for self-care.</p>
+              <p data-translate="faq-a2">Sujok AI is designed for anyone interested in alternative healing: professional therapists looking for a rapid reference guide, acupuncture/acupressure students, wellness coaches, or beginners who want to learn how to locate correspondence zones on their hands for self-care.</p>
             </div>
           </div>
           
           <!-- Accordion Item 3 -->
           <div class="faq-item">
             <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Is Sujok AI suitable for beginners?</span>
+              <span class="faq-question" data-translate="faq-q3">Is Sujok AI suitable for beginners?</span>
               <span class="faq-icon-plus"></span>
             </button>
             <div class="faq-content">
-              <p>Yes, absolutely! The AI is designed to adapt its answers. Beginners can ask simple questions like "Where is the stomach point on my hand?" and receive clear, non-technical guidance. It also supports advanced energy concepts for experienced practitioners.</p>
+              <p data-translate="faq-a3">Yes, absolutely! The AI is designed to adapt its answers. Beginners can ask simple questions like "Where is the stomach point on my hand?" and receive clear, non-technical guidance. It also supports advanced energy concepts for experienced practitioners.</p>
             </div>
           </div>
           
           <!-- Accordion Item 4 -->
           <div class="faq-item">
             <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Can therapists use Sujok AI in practice?</span>
+              <span class="faq-question" data-translate="faq-q4">Can therapists use Sujok AI in practice?</span>
               <span class="faq-icon-plus"></span>
             </button>
             <div class="faq-content">
-              <p>Yes. Therapists can use Sujok AI as a quick-consultation tool to verify points, double-check Six Ki energy relationships, review Triorigin system mappings, or get inspiration for treatment setups (e.g. choice of seeds, magnet polarities) during patient visits.</p>
+              <p data-translate="faq-a4">Yes. Therapists can use Sujok AI as a quick-consultation tool to verify points, double-check Six Ki energy relationships, review Triorigin system mappings, or get inspiration for treatment setups (e.g. choice of seeds, magnet polarities) during patient visits.</p>
             </div>
           </div>
           
           <!-- Accordion Item 5 -->
           <div class="faq-item">
             <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Does Sujok AI provide educational guidance?</span>
+              <span class="faq-question" data-translate="faq-q5">Does Sujok AI provide educational guidance?</span>
               <span class="faq-icon-plus"></span>
             </button>
             <div class="faq-content">
-              <p>Yes, Sujok AI excels at education. It provides systematic descriptions of standard correspondence systems, insect systems, Triorigin theory, and meridian systems. However, please note that it is an informational tool and does not issue formal certifications.</p>
+              <p data-translate="faq-a5">Yes, Sujok AI excels at education. It provides systematic descriptions of standard correspondence systems, insect systems, Triorigin theory, and meridian systems. However, please note that it is an informational tool and does not issue formal certifications.</p>
             </div>
           </div>
         </div>
@@ -505,19 +520,33 @@
     <section class="company-section" id="company">
       <div class="container">
         <div class="company-card">
-          <div class="company-grid">
-            <div class="company-logo-box">
-              <img src="assets/hari-bot-logo.jpg" alt="Hari Bots and Business Solutions Logo" class="company-logo">
+          <div class="company-card-grid">
+            <!-- Company Profile -->
+            <div class="company-profile-col">
+              <div class="company-logo-box">
+                <img src="assets/hari-bot-logo.jpg" alt="Hari Bots and Business Solutions Logo" class="company-logo">
+              </div>
+              <div class="company-info">
+                <span class="company-tag" data-translate="company-tag">Created & Marketed By</span>
+                <h2 class="company-name" data-translate="company-name">Hari Bots and Business Solutions</h2>
+                <p class="company-description" data-translate="company-desc">
+                  Hari Bots and Business Solutions develops intelligent AI solutions, chatbots, automation systems, and educational technology platforms designed to empower businesses and professionals through innovation.
+                </p>
+              </div>
             </div>
-            <div class="company-info">
-              <span class="company-tag">Created & Marketed By</span>
-              <h2 class="company-name">Hari Bots and Business Solutions</h2>
-              <p class="company-description">
-                Hari Bots and Business Solutions develops intelligent AI solutions, chatbots, automation systems, and educational technology platforms designed to empower businesses and professionals through innovation.
-              </p>
-              <p class="company-mission">
-                Our mission is to bridge the gap between traditional wisdom and modern artificial intelligence, creating digital tools that enrich learning, expand access, and streamline professional workflows.
-              </p>
+            
+            <!-- Founder Profile -->
+            <div class="founder-profile-col">
+              <div class="company-logo-box">
+                <img src="assets/sujok-ai-bot-founder.jpg" alt="Sujok AI Bot Founder" class="company-founder-pic">
+              </div>
+              <div class="founder-info">
+                <span class="company-tag" data-translate="company-founder-tag">Founder of Sujok AI Bot</span>
+                <h2 class="company-name" data-translate="company-founder-name">Hariharan</h2>
+                <p class="company-description" data-translate="company-founder-desc">
+                  Lead architect and developer of the Sujok AI Bot platform, specializing in medical artificial intelligence systems and conversational chatbot solutions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -528,36 +557,36 @@
     <section class="contact-section" id="contact">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Get in Touch</h2>
+          <h2 class="section-title" data-translate="contact-title">Get in Touch</h2>
           <div class="title-underline"></div>
-          <p class="section-subtitle">Have questions about Sujok AI or need support? Send us a message or chat with us directly on WhatsApp.</p>
+          <p class="section-subtitle" data-translate="contact-subtitle">Have questions about Sujok AI or need support? Send us a message or chat with us directly on WhatsApp.</p>
         </div>
         
         <div class="contact-grid">
           <!-- Contact Form -->
           <div class="contact-form-card">
-            <h3>Send a Message</h3>
+            <h3 data-translate="form-title">Send a Message</h3>
             <form id="contactForm">
               <div class="form-group">
-                <label for="contactName">Full Name</label>
+                <label for="contactName" data-translate="form-name-label">Full Name</label>
                 <input type="text" id="contactName" placeholder="Enter your full name" required>
               </div>
               <div class="form-group">
-                <label for="contactEmail">Email Address</label>
+                <label for="contactEmail" data-translate="form-email-label">Email Address</label>
                 <input type="email" id="contactEmail" placeholder="yourname@example.com" required>
               </div>
               <div class="form-group">
-                <label for="contactMessage">Message</label>
+                <label for="contactMessage" data-translate="form-msg-label">Message</label>
                 <textarea id="contactMessage" rows="5" placeholder="How can we help you?" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <button type="submit" class="btn btn-primary btn-block" data-translate="form-submit">Send Message</button>
             </form>
           </div>
           
           <!-- Contact Info & WhatsApp -->
           <div class="contact-info-card">
-            <h3>Direct Contact</h3>
-            <p class="contact-desc">Reach out to our support and marketing teams directly through WhatsApp for immediate inquiries about integration, licensing, or collaborations.</p>
+            <h3 data-translate="contact-direct-title">Direct Contact</h3>
+            <p class="contact-desc" data-translate="contact-direct-desc">Reach out to our support and marketing teams directly through WhatsApp for immediate inquiries about integration, licensing, or collaborations.</p>
             
             <div class="whatsapp-list">
               <!-- Contact 1 -->
@@ -566,10 +595,10 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 9.77z"/></svg>
                 </div>
                 <div class="whatsapp-details">
-                  <span class="whatsapp-label">📱 WhatsApp (Support)</span>
+                  <span class="whatsapp-label" data-translate="contact-wa-support">📱 WhatsApp (Support)</span>
                   <span class="whatsapp-number">+91 8667808803</span>
                   <a href="https://wa.me/918667808803?text=Hi! I am interested in Sujok AI." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-chat">
-                    <span>Chat Now</span>
+                    <span data-translate="contact-wa-chat">Chat Now</span>
                   </a>
                 </div>
               </div>
@@ -580,20 +609,20 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 9.77z"/></svg>
                 </div>
                 <div class="whatsapp-details">
-                  <span class="whatsapp-label">📱 WhatsApp (Business)</span>
+                  <span class="whatsapp-label" data-translate="contact-wa-business">📱 WhatsApp (Business)</span>
                   <span class="whatsapp-number">+91 8838154932</span>
                   <a href="https://wa.me/918838154932?text=Hi! I want to discuss business options for Sujok AI." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-chat">
-                    <span>Chat Now</span>
+                    <span data-translate="contact-wa-chat">Chat Now</span>
                   </a>
                 </div>
               </div>
             </div>
             
             <div class="other-channels">
-              <h4>Email Placeholder</h4>
-              <p class="email-placeholder">✉ info@haribots.com</p>
+              <h4 data-translate="contact-email-title">Email Placeholder</h4>
+              <p class="email-placeholder"><a href="mailto:haribotbusinesssolutions@gmail.com">✉ haribotbusinesssolutions@gmail.com</a></p>
               
-              <h4>Follow Us</h4>
+              <h4 data-translate="contact-follow-title">Follow Us</h4>
               <div class="social-icons">
                 <a href="#" aria-label="Facebook">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
@@ -604,7 +633,7 @@
                 <a href="#" aria-label="LinkedIn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
                 </a>
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/sujokaibot?igsh=MW92dXAwcWZ1cGVvdw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
                 </a>
               </div>
@@ -623,26 +652,26 @@
           <img src="assets/sujok-ai-logo.jpg" alt="Sujok AI Logo" class="brand-logo-small">
           <span>Sujok AI</span>
         </div>
-        <p class="footer-tagline">Your Intelligent Sujok Therapy Assistant</p>
-        <p class="company-credit">Created & Marketed by <strong>Hari Bots and Business Solutions</strong></p>
+        <p class="footer-tagline" data-translate="footer-tagline">Your Intelligent Sujok Therapy Assistant</p>
+        <p class="company-credit" data-translate="footer-credit">Created & Marketed by <strong>Hari Bots and Business Solutions</strong></p>
       </div>
       
       <div class="footer-nav">
         <h4>Navigation</h4>
         <div class="footer-links">
-          <a href="#hero">Home</a>
-          <a href="#about">About Sujok</a>
-          <a href="#founder">Founder</a>
-          <a href="#features">Features</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contact">Contact</a>
+          <a href="#hero" data-translate="nav-home">Home</a>
+          <a href="#about" data-translate="nav-about">About Sujok</a>
+          <a href="#founder" data-translate="nav-founder">Founder</a>
+          <a href="#features" data-translate="nav-features">Features</a>
+          <a href="#pricing" data-translate="nav-pricing">Pricing</a>
+          <a href="#faq" data-translate="nav-faq">FAQ</a>
+          <a href="#contact" data-translate="nav-contact">Contact</a>
         </div>
       </div>
       
       <div class="footer-disclaimer-box">
-        <h4>Medical Disclaimer</h4>
-        <p class="medical-disclaimer">
+        <h4 data-translate="footer-disclaimer-title">Medical Disclaimer</h4>
+        <p class="medical-disclaimer" data-translate="footer-disclaimer-text">
           "Sujok AI is designed for educational and informational purposes only. It does not replace professional medical advice, diagnosis, or treatment."
         </p>
       </div>
@@ -650,8 +679,8 @@
     
     <div class="footer-bottom">
       <div class="container footer-bottom-flex">
-        <p class="copyright">&copy; 2026 Sujok AI. All Rights Reserved.</p>
-        <p class="developer-info">Developed with care by Hari Bots</p>
+        <p class="copyright" data-translate="footer-copyright">&copy; 2026 Sujok AI. All Rights Reserved.</p>
+        <p class="developer-info" data-translate="footer-developer">Developed with care by Hari Bots</p>
       </div>
     </div>
   </footer>
@@ -701,9 +730,9 @@
   <div class="modal-backdrop" id="successModal">
     <div class="modal-card">
       <div class="modal-icon">✓</div>
-      <h3>Message Sent!</h3>
-      <p>Thank you for reaching out. A representative from <strong>Hari Bots and Business Solutions</strong> will contact you shortly.</p>
-      <button class="btn btn-primary btn-sm" id="closeModalBtn">Close</button>
+      <h3 data-translate="modal-title">Message Sent!</h3>
+      <p data-translate="modal-desc">Thank you for reaching out. A representative from <strong>Hari Bots and Business Solutions</strong> will contact you shortly.</p>
+      <button class="btn btn-primary btn-sm" id="closeModalBtn" data-translate="modal-close">Close</button>
     </div>
   </div>
 
