@@ -21,11 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "hero-badge": "AI Healthcare Assistant",
       "hero-title": "Ask Anything About <span class=\"gradient-text\">Sujok Therapy</span>",
-      "hero-subtitle": "Powered by Artificial Intelligence, Built for Sujok Practitioners, Students, and Therapists.",
-      "hero-description": "Instantly access Sujok knowledge, correspondence systems, Six Ki theory, meridian info, seed therapy techniques, and clinical insights.",
+      "hero-subtitle": "Powered by AI. Built for Sujok practitioners, students, and therapists.",
+      "hero-description": "Access Sujok knowledge, correspondence systems, Six Ki theory, and seed therapy instantly.",
       "hero-cta-get": "Get Sujok AI",
       "hero-cta-learn": "Learn Sujok",
-      "hero-stat-1": "WhatsApp Support",
       "hero-stat-2": "Sujok Guidance",
       "hero-stat-3": "Natural Healing",
       
@@ -124,8 +123,9 @@ document.addEventListener('DOMContentLoaded', () => {
       "company-name": "Hari Bots and Business Solutions",
       "company-desc": "Hari Bots and Business Solutions develops intelligent AI solutions, chatbots, automation systems, and educational technology platforms designed to empower businesses and professionals through innovation.",
       "company-founder-tag": "Founder of Sujok AI Bot",
-      "company-founder-name": "Hariharan",
-      "company-founder-desc": "Lead architect and developer of the Sujok AI Bot platform, specializing in medical artificial intelligence systems and conversational chatbot solutions.",
+      "company-founder-name": "Hariharan M",
+      "company-founder-desc": "Hariharan M is the founder of Sujok AI Bot. He is a first-year Mechatronics student, a Sujok therapy enthusiast, and a member of Energy Nest. He has completed Reiki healing (4 levels), Ama Deus healing, Lama Fera healing (1st level), and Kwan Yin Angel healing.",
+      "company-website-link": "Visit Website",
       
       "contact-title": "Get in Touch",
       "contact-subtitle": "Have questions about Sujok AI or need support? Send us a message or chat with us directly on WhatsApp.",
@@ -166,11 +166,10 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "hero-badge": "AI மருத்துவ உதவியாளர்",
       "hero-title": "சுஜோக் சிகிச்சை பற்றி <span class=\"gradient-text\">எது வேண்டுமானாலும் கேளுங்கள்</span>",
-      "hero-subtitle": "செயற்கை நுண்ணறிவு மூலம் இயக்கப்படுகிறது, சுஜோக் பயிற்சியாளர்கள், மாணவர்கள் மற்றும் மருத்துவர்களுக்காக உருவாக்கப்பட்டது.",
-      "hero-description": "சுஜோக் அறிவு, தொடர்பு அமைப்புகள், சிக்ஸ் கி (Six Ki) கோட்பாடு, மெரிடியன் தகவல், விதை சிகிச்சை முறைகள் மற்றும் மருத்துவ நுண்ணறிவுகளை உடனுக்குடன் அணுகலாம்.",
+      "hero-subtitle": "AI மூலம் இயக்கப்படுகிறது. சுஜோக் பயிற்சியாளர்கள், மாணவர்கள் மற்றும் மருத்துவர்களுக்காக உருவானது.",
+      "hero-description": "சுஜோக் அறிவு, தொடர்பு அமைப்புகள், சிக்ஸ் கி கொள்கைகள் மற்றும் விதை சிகிச்சை முறைகளை உடனுக்குடன் அணுகலாம்.",
       "hero-cta-get": "சுஜோக் AI பெறுக",
       "hero-cta-learn": "சுஜோக் கற்க",
-      "hero-stat-1": "வாட்ஸ்அப் ஆதரவு",
       "hero-stat-2": "சுஜோக் வழிகாட்டுதல்",
       "hero-stat-3": "இயற்கை மருத்துவம்",
       
@@ -269,8 +268,9 @@ document.addEventListener('DOMContentLoaded', () => {
       "company-name": "ஹரி பாட்ஸ் மற்றும் பிசினஸ் சொல்யூஷன்ஸ்",
       "company-desc": "ஹரி பாட்ஸ் மற்றும் பிசினஸ் சொல்யூஷன்ஸ் நிறுவனம் வணிகங்கள் மற்றும் வல்லுநர்களை மேம்படுத்துவதற்காக புத்திசாலித்தனமான AI தீர்வுகள், சாட்போட்கள், ஆட்டோமேஷன் அமைப்புகள் மற்றும் கல்வித் தொழில்நுட்ப தளங்களை உருவாக்குகிறது.",
       "company-founder-tag": "சுஜோக் AI பாட்டின் நிறுவனர்",
-      "company-founder-name": "ஹரிஹரன்",
-      "company-founder-desc": "சுஜோக் AI பாட் தளத்தின் முதன்மை வடிவமைப்பாளர் மற்றும் உருவாக்குநர், மருத்துவ செயற்கை நுண்ணறிவு மற்றும் அரட்டை மென்பொருள் தயாரிப்புகளில் நிபுணத்துவம் பெற்றவர்.",
+      "company-founder-name": "ஹரிஹரன் எம்",
+      "company-founder-desc": "ஹரிஹரன் எம் சுஜோக் AI பாட்டின் நிறுவனர் ஆவார். இவர் முதலாமாண்டு மெகாட்ரானிக்ஸ் மாணவர், சுஜோக் சிகிச்சை ஆர்வலர் மற்றும் எனர்ஜி நெஸ்ட் (Energy Nest) அமைப்பின் உறுப்பினர் ஆவார். இவர் ரெய்கி சிகிச்சை (4 நிலைகள்), அமா தியூஸ் சிகிச்சை (Ama Deus), லாமா ஃபெரா சிகிச்சை (முதல் நிலை) மற்றும் குவான் யின் ஏஞ்சல் சிகிச்சை ஆகியவற்றை முடித்துள்ளார்.",
+      "company-website-link": "இணையதளத்தை பார்வையிடவும்",
       
       "contact-title": "தொடர்பு கொள்க",
       "contact-subtitle": "சுஜோக் AI பற்றி ஏதேனும் கேள்விகள் உள்ளதா? எங்களுக்கு செய்தி அனுப்புங்கள் அல்லது வாட்ஸ்அப் மூலம் நேரடியாக அரட்டையடிக்கவும்.",
