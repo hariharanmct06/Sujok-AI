@@ -2175,3 +2175,121 @@ section {
     padding: 30px 20px;
   }
 }
+
+/* ==========================================
+   12. Therapy Detail Page Styling
+   ========================================== */
+.therapy-header-section {
+  padding: 100px 0 50px 0;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(239, 246, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.therapy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .therapy-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.therapy-card-detail {
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.therapy-card-detail:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Specific Modality Colors */
+.therapy-needles {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0f2fe 100%);
+  border-left: 6px solid #0284c7;
+}
+.therapy-needles .modality-icon-bg {
+  background-color: #0284c7;
+  color: var(--bg-white);
+}
+
+.therapy-magnets {
+  background: linear-gradient(135deg, #fef2f2 0%, #ffe4e6 100%);
+  border-left: 6px solid #e11d48;
+}
+.therapy-magnets .modality-icon-bg {
+  background-color: #e11d48;
+  color: var(--bg-white);
+}
+
+.therapy-seeds {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-left: 6px solid #16a34a;
+}
+.therapy-seeds .modality-icon-bg {
+  background-color: #16a34a;
+  color: var(--bg-white);
+}
+
+.therapy-colors {
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+  border-left: 6px solid #9333ea;
+}
+.therapy-colors .modality-icon-bg {
+  background: linear-gradient(135deg, #ef4444, #3b82f6, #10b981, #f59e0b);
+  color: var(--bg-white);
+}
+
+.modality-icon-bg {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.modality-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+}
+
+.modality-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-medium);
+}
+
+.modality-usage {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--primary-navy);
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: var(--radius-md);
+  border-left: 3px solid currentColor;
+}
+
+.back-home-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}

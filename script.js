@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "about-princ-2-desc": "Often produces fast relief for physical discomfort when points are stimulated correctly.",
       "about-overlay-title": "Sujok Principle",
       "about-overlay-desc": "\"The body project is on the hand.\"",
+      "about-more-btn": "Explore Treatment Modalities &rarr;",
       
       "founder-title": "Founder of Sujok",
       "founder-lifespan": "1942 – 2010",
@@ -161,6 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "about-princ-2-desc": "புள்ளிகள் சரியாகத் தூண்டப்படும்போது உடல் உபாதைகளுக்கு விரைவான நிவாரணம் அளிக்கிறது.",
       "about-overlay-title": "சுஜோக் கொள்கை",
       "about-overlay-desc": "\"உடல் அமைப்பு கையில் உள்ளது.\"",
+      "about-more-btn": "சிகிச்சை முறைகளை ஆராயுங்கள் &rarr;",
       
       "founder-title": "சுஜோக்கின் நிறுவனர்",
       "founder-lifespan": "1942 – 2010",
