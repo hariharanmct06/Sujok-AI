@@ -1,4 +1,93 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+  // ==========================================
+  // 0. Loading Screen Controller (Max 3 Seconds)
+  // ==========================================
+  const initLoadingScreen = () => {
+    const loader = document.getElementById('loadingScreen');
+    const progressBar = document.getElementById('loaderProgressBar');
+    const percentageText = document.getElementById('loaderPercentage');
+    const statusText = document.getElementById('loaderStatusText');
+    const subtitleText = document.getElementById('loaderSubtitleText');
+    const factText = document.getElementById('loaderFactText');
+
+    if (!loader) return;
+
+    // Loader facts array
+    const loaderFacts = {
+      en: [
+        "Sujok means Hand and Foot. It is a natural healing therapy created by Park Jae Woo.",
+        "The thumb corresponds to the head and neck, allowing remote regulation of brain and facial health.",
+        "Six Ki Theory balances wind, heat, hotness, humidity, dryness, and coldness in the body.",
+        "In seed therapy, living seeds release positive biological life energy to stimulate healing points."
+      ],
+      ta: [
+        "சுஜோக் என்றால் கை மற்றும் கால் என்று பொருள். இது பேராசிரியர் பார்க் ஜே வூ என்பவரால் உருவாக்கப்பட்ட இயற்கை குணப்படுத்தும் முறையாகும்.",
+        "பெருவிரல் தலை மற்றும் கழுத்தைக் குறிக்கிறது. இது மூளை மற்றும் முக ஆரோக்கியத்தை ஒழுங்குபடுத்த உதவுகிறது.",
+        "சிக்ஸ் கி கோட்பாடு உடலின் காற்று, வெப்பம், அதிவெப்பம், ஈரப்பதம், வறட்சி, குளிர்ச்சி ஆகிய ஆறு ஆற்றல்களைச் சமநிலைப்படுத்துகிறது.",
+        "விதை சிகிச்சையில், உயிருள்ள விதைகள் குணப்படுத்தும் புள்ளிகளைத் தூண்டுவதற்கு நேர்மறை உயிரியல் ஆற்றலை வெளியிடுகின்றன."
+      ]
+    };
+
+    let progress = 0;
+    const duration = 2400; // ms to reach 100%
+    const intervalTime = 24; // update every 24ms
+    const increment = 100 / (duration / intervalTime);
+    
+    // Animate progress bar and percentage
+    const progressInterval = setInterval(() => {
+      progress += increment;
+      if (progress >= 100) {
+        progress = 100;
+        clearInterval(progressInterval);
+        
+        // Finalize status text
+        if (statusText) {
+          const lang = typeof currentLanguage !== 'undefined' ? currentLanguage : 'en';
+          statusText.textContent = lang === 'ta' ? "சுஜோக் அறிவு வெற்றிகரமாக ஏற்றப்பட்டது!" : "Sujok Knowledge Loaded!";
+        }
+        if (subtitleText) {
+          const lang = typeof currentLanguage !== 'undefined' ? currentLanguage : 'en';
+          subtitleText.textContent = lang === 'ta' ? "தயாராக உள்ளது!" : "Ready!";
+        }
+        
+        // Trigger fade out
+        setTimeout(() => {
+          loader.classList.add('fade-out');
+          
+          // Remove from layout after fade transition ends
+          setTimeout(() => {
+            loader.style.display = 'none';
+          }, 500);
+        }, 100);
+      }
+      
+      if (progressBar) progressBar.style.width = `${progress}%`;
+      if (percentageText) percentageText.textContent = `${Math.floor(progress)}%`;
+    }, intervalTime);
+
+    // Rotate facts every 900ms
+    let factIndex = 0;
+    const factInterval = setInterval(() => {
+      if (progress >= 100) {
+        clearInterval(factInterval);
+        return;
+      }
+      factIndex = (factIndex + 1) % 4;
+      if (factText) {
+        factText.style.opacity = 0;
+        setTimeout(() => {
+          const lang = typeof currentLanguage !== 'undefined' ? currentLanguage : 'en';
+          factText.textContent = loaderFacts[lang][factIndex];
+          factText.style.opacity = 1;
+        }, 150);
+      }
+    }, 900);
+  };
+
+  // Run loader immediately
+  initLoadingScreen();
+
   const translations = {
     en: {
       "announcement": "⚡ Experience the Future of Natural Healing with Sujok AI BOT!",
@@ -32,7 +121,16 @@ document.addEventListener('DOMContentLoaded', () => {
       "footer-disclaimer-title": "Medical Disclaimer",
       "footer-disclaimer-text": "\"Sujok AI BOT is designed for educational and informational purposes only. It is useful for Sujok therapists to diagnose diseases as a second opinion. However, as an AI chatbot, it cannot always be 100% accurate and does not replace professional medical advice, diagnosis, or treatment.\"",
       "footer-copyright": "© 2026 Sujok AI BOT. All Rights Reserved.",
-      "footer-developer": "Developed with care by Hari Bots"
+      "footer-developer": "Developed with care by Hari Bots",
+      // Loader keys
+      "loader-badge-sujok": "SUJOK",
+      "loader-badge-ai": "AI",
+      "loader-badge-wellness": "WELLNESS",
+      "loader-loading": "Loading Sujok Knowledge...",
+      "loader-preparing": "Preparing your AI Assistant...",
+      "loader-fact-badge": "SUJOK FACT",
+      "loader-fact-1": "Sujok means Hand and Foot. It is a natural healing therapy created by Park Jae Woo.",
+      "loader-powered": "Powered by <span class=\"footer-bold\">Hari Bots & Business Solutions</span>"
     },
     ta: {
       "announcement": "⚡ சுஜோக் AI BOT உடன் இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்!",
@@ -66,7 +164,16 @@ document.addEventListener('DOMContentLoaded', () => {
       "footer-disclaimer-title": "மருத்துவ மறுப்பு",
       "footer-disclaimer-text": "\"சுஜோக் AI BOT கல்வி மற்றும் தகவல் நோக்கங்களுக்காக மட்டுமே வடிவமைக்கப்பட்டுள்ளது. இது சுஜோக் சிகிச்சையாளர்கள் நோய்களைக் கண்டறிவதற்கு ஒரு இரண்டாவது கருத்தாக (Second Opinion) பயனுள்ளதாக இருக்கும். இருப்பினும், இது ஒரு AI சாட்பாட் என்பதால், இது எப்போதும் 100% துல்லியமாக இருக்க முடியாது மற்றும் தொழில்முறை மருத்துவ ஆலோசனை, கண்டறிதல் அல்லது சிகிச்சைக்கு மாற்றாகாது.\"",
       "footer-copyright": "© 2026 சுஜோக் AI BOT. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-      "footer-developer": "அன்புடன் உருவாக்கியவர் ஹரி பாட்ஸ்"
+      "footer-developer": "அன்புடன் உருவாக்கியவர் ஹரி பாட்ஸ்",
+      // Loader keys (Tamil)
+      "loader-badge-sujok": "சுஜோக்",
+      "loader-badge-ai": "AI",
+      "loader-badge-wellness": "நலம்",
+      "loader-loading": "சுஜோக் அறிவை ஏற்றுகிறது...",
+      "loader-preparing": "உங்கள் AI உதவியாளரைத் தயார் செய்கிறது...",
+      "loader-fact-badge": "சுஜோக் உண்மை",
+      "loader-fact-1": "சுஜோக் என்றால் கை மற்றும் கால் என்று பொருள். இது பேராசிரியர் பார்க் ஜே வூ என்பவரால் உருவாக்கப்பட்ட இயற்கை குணப்படுத்தும் முறையாகும்.",
+      "loader-powered": "ஹரி பாட்ஸ் & பிசினஸ் சொல்யூஷன்ஸ் மூலம் வழங்கப்படுகிறது"
     }
   };
 
