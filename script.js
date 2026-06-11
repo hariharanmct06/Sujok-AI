@@ -182,7 +182,46 @@ document.addEventListener('DOMContentLoaded', () => {
       "map-chest-title": "Upper Palm:",
       "map-chest-desc": "Corresponds to the Chest cavity (Heart, Lungs).",
       "map-abdomen-title": "Lower Palm:",
-      "map-abdomen-desc": "Corresponds to the Abdominal cavity (Stomach, Liver, Gall Bladder, Intestines)."
+      "map-abdomen-desc": "Corresponds to the Abdominal cavity (Stomach, Liver, Gall Bladder, Intestines).",
+      // Mobile redesign keys
+      "mobile-hero-title": "Your AI-Powered Sujok Assistant",
+      "mobile-hero-subtitle": "Get instant answers about Sujok Therapy, Correspondence Systems, Six Ki, Treatment Methods, and more.",
+      "mobile-hero-cta-chat": "Start Chatting",
+      "chat-status-active": "Active Now",
+      "chat-welcome-msg": "Hello! I am your AI-powered Sujok Assistant. Ask me anything about Sujok Therapy, point locations, Six Ki, or treatment methods. Click one of the questions below to try me out!",
+      "chat-q1": "🤕 What point helps headache?",
+      "chat-q2": "✋ Explain Correspondence Therapy",
+      "chat-q3": "⚡ What is Six Ki Theory?",
+      "chat-q4": "🌱 How to treat back pain?",
+      "mob-feat-1-title": "AI Trained on Sujok",
+      "mob-feat-1-desc": "Deep knowledge base compiled from core publications, correspondence models, and Triorigin books.",
+      "mob-feat-2-title": "Instant Responses",
+      "mob-feat-2-desc": "Receive clinical references and point mappings in under a second on the go.",
+      "mob-feat-3-title": "Learn Sujok Faster",
+      "mob-feat-3-desc": "An outstanding study aid for certification exams, meridian studies, and point locations.",
+      "mob-feat-4-title": "Treatment Guidance",
+      "mob-feat-4-desc": "Practical insights on polarities, seeds, colors, and diagnostic pressure techniques.",
+      "mob-feat-5-title": "Available Anytime",
+      "mob-feat-5-desc": "Available 24/7. Fully optimized for instant consults anywhere, anytime.",
+      "mob-feat-6-title": "Mobile Optimized",
+      "mob-feat-6-desc": "Designed with single-handed thumb navigation and ultra-fast lightweight load times.",
+      "mob-why-1-title": "Saves time searching books",
+      "mob-why-1-desc": "Instantly matches symptoms to points without flipping through massive textbooks.",
+      "mob-why-2-title": "Easy learning for students",
+      "mob-why-2-desc": "Simplifies complex energy flow guidelines, insect systems, and Triorigin structures.",
+      "mob-why-3-title": "Quick reference for practitioners",
+      "mob-why-3-desc": "Ideal diagnostic helper for point locations and seed selections during consultations.",
+      "mob-why-4-title": "Available 24/7",
+      "mob-why-4-desc": "Access Sujok knowledge day or night, whenever an urgent clinical question arises.",
+      "mob-why-5-title": "Beginner-friendly explanations",
+      "mob-why-5-desc": "Adapts terminology to make holistic health principles clear for newcomers.",
+      "mob-trust-title": "Our Trust Pillars",
+      "mob-trust-1-title": "Educational & Safe",
+      "mob-trust-1-desc": "Designed as a supportive guide to enhance learning and verify point mappings safely.",
+      "mob-trust-2-title": "Reliable Knowledge Base",
+      "mob-trust-2-desc": "Based on the traditional teachings of Professor Park Jae Woo and certified literature.",
+      "mob-trust-3-title": "Therapist's Companion",
+      "mob-trust-3-desc": "Provides a reliable second opinion to streamline diagnostic checks and verify point locations."
     },
     ta: {
       "announcement": "⚡ சுஜோக் AI BOT உடன் இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்!",
@@ -353,12 +392,47 @@ document.addEventListener('DOMContentLoaded', () => {
       "correspondence-desc": "நிலையான தொடர்பு முறை கைகள் மற்றும் கால்களை முழு உடலின் சிறிய பிரதிநிதித்துவமாக நடத்துகிறது. ஒரு உறுப்பு நோய்வாய்ப்படும்போது, தொடர்பு மண்டலத்தில் உள்ள புள்ளிகள் மென்மையாகின்றன. இந்த புள்ளிகளைத் தூண்டுவது உடனடி குணப்படுத்துதலைத் தூண்டுகிறது:",
       "map-head-title": "பெருவிரல்:",
       "map-head-desc": "தலை மற்றும் கழுத்துக்கு ஒத்திருக்கிறது (மூளை, கண்கள், மூக்கு, வாய்).",
-      "map-limbs-title": "விரல்கள்:",
-      "map-limbs-desc": "ஆள்காட்டி மற்றும் சுண்டு விரல்கள் கைகளையும், நடு மற்றும் மோதிர விரல்கள் கால்களையும் குறிக்கின்றன.",
-      "map-chest-title": "உள்ளங்கையின் மேல் பகுதி:",
-      "map-chest-desc": "மார்புப் பகுதிக்கு ஒத்திருக்கிறது (இதயம், நுரையீரல்).",
       "map-abdomen-title": "உள்ளங்கையின் கீழ் பகுதி:",
-      "map-abdomen-desc": "வயிற்றுப் பகுதிக்கு ஒத்திருக்கிறது (வயிறு, கல்லீரல், பித்தப்பை, குடல்)."
+      "map-abdomen-desc": "வயிற்றுப் பகுதிக்கு ஒத்திருக்கிறது (வயிறு, கல்லீரல், பித்தப்பை, குடல்).",
+      // Mobile redesign keys (Tamil)
+      "mobile-hero-title": "உங்களின் AI-ஆற்றல் கொண்ட சுஜோக் உதவியாளர்",
+      "mobile-hero-subtitle": "சுஜோக் சிகிச்சை, தொடர்பு அமைப்புகள், சிக்ஸ் கி, சிகிச்சை முறைகள் மற்றும் பலவற்றைப் பற்றிய உடனடி பதில்களைப் பெறுங்கள்.",
+      "mobile-hero-cta-chat": "அரட்டையைத் தொடங்கு",
+      "chat-status-active": "இப்போது செயல்பாட்டில்",
+      "chat-welcome-msg": "வணக்கம்! நான் உங்கள் AI-ஆற்றல் கொண்ட சுஜோக் உதவியாளர். சுஜோக் சிகிச்சை, புள்ளி அமைப்புகள், சிக்ஸ் கி அல்லது சிகிச்சை முறைகள் பற்றி எது வேண்டுமானாலும் என்னிடம் கேளுங்கள். கீழே உள்ள கேள்விகளில் ஒன்றைச் சொடுக்கி சோதித்துப் பாருங்கள்!",
+      "chat-q1": "🤕 தலைவலிக்கு எந்தப் புள்ளி உதவுகிறது?",
+      "chat-q2": "✋ தொடர்பு சிகிச்சை முறையை விளக்குக",
+      "chat-q3": "⚡ சிக்ஸ் கி கோட்பாடு என்றால் என்ன?",
+      "chat-q4": "🌱 முதுகு வலியை எவ்வாறு குணப்படுத்துவது?",
+      "mob-feat-1-title": "சுஜோக் அறிவில் பயிற்சி பெற்ற AI",
+      "mob-feat-1-desc": "அடிப்படை வெளியீடுகள், தொடர்பு மாதிரிகள் மற்றும் டிரைஓரிஜின் புத்தகங்களிலிருந்து தொகுக்கப்பட்ட ஆழமான அறிவுத்தளம்.",
+      "mob-feat-2-title": "உடனடி பதில்கள்",
+      "mob-feat-2-desc": "உடனடி மருத்துவ குறிப்புகள் மற்றும் புள்ளி வரைபடங்களை ஒரு வினாடிக்கும் குறைவான நேரத்தில் பெறுங்கள்.",
+      "mob-feat-3-title": "சுஜோக் விரைவாகக் கற்க",
+      "mob-feat-3-desc": "சான்றிதழ் தேர்வுகள், மெரிடியன் படிப்புகள் மற்றும் புள்ளிகளைக் கண்டறியும் ஒரு சிறந்த ஆய்வு உதவியாளர்.",
+      "mob-feat-4-title": "சிகிச்சை வழிகாட்டுதல்",
+      "mob-feat-4-desc": "காந்த துருவங்கள், விதைகள், வண்ணங்கள் மற்றும் கண்டறியும் அழுத்த நுட்பங்கள் பற்றிய நடைமுறை விவரங்கள்.",
+      "mob-feat-5-title": "எப்போதும் கிடைக்கும்",
+      "mob-feat-5-desc": "24/7 கிடைக்கும். எங்கும், எந்த நேரத்திலும் உடனடி ஆலோசனைகளுக்கு முழுமையாக உகந்தது.",
+      "mob-feat-6-title": "மொபைல் பயன்பாட்டிற்கு உகந்தது",
+      "mob-feat-6-desc": "ஒற்றைக் கை கட்டைவிரல் வழிசெலுத்தல் மற்றும் மிக வேகமான இலகுரக ஏற்றுதல் நேரத்துடன் வடிவமைகப்பட்டுள்ளது.",
+      "mob-why-1-title": "புத்தகங்களைத் தேடும் நேரத்தை மிச்சப்படுத்துகிறது",
+      "mob-why-1-desc": "பெரிய பாடப்புத்தகங்களைப் புரட்டாமல் அறிகுறிகளை உடனடியாக புள்ளிகளுடன் பொருத்துகிறது.",
+      "mob-why-2-title": "மாணவர்கள் எளிதாகக் கற்கலாம்",
+      "mob-why-2-desc": "சிக்கலான ஆற்றல் ஓட்ட வழிகாட்டுதல்கள், பூச்சி அமைப்புகள் மற்றும் டிரைஓரிஜின் கட்டமைப்புகளை எளிதாக்குகிறது.",
+      "mob-why-3-title": "பயிற்சியாளர்களுக்கு விரைவான குறிப்பு",
+      "mob-why-3-desc": "ஆலோசனைகளின் போது புள்ளிகளைக் கண்டறியவும் மற்றும் விதைகளைத் தேர்ந்தெடுக்கவும் சிறந்த கண்டறியும் உதவியாளர்.",
+      "mob-why-4-title": "24/7 கிடைக்கும்",
+      "mob-why-4-desc": "உடனடி மருத்துவ கேள்வி எழும்போதெல்லாம், இரவும் பகலும் சுஜோக் அறிவை அணுகலாம்.",
+      "mob-why-5-title": "ஆரம்ப நிலைப் பயனர்களுக்கு ஏற்ற விளக்கங்கள்",
+      "mob-why-5-desc": "புதியவர்களுக்கு முழுமையான ஆரோக்கியக் கொள்கைகளைத் தெளிவுபடுத்த சொற்களை எளிதாக்குகிறது.",
+      "mob-trust-title": "எங்கள் நம்பிக்கை தூண்கள்",
+      "mob-trust-1-title": "கல்வி சார்ந்தது & பாதுகாப்பானது",
+      "mob-trust-1-desc": "கற்றலை மேம்படுத்தவும் புள்ளி வரைபடங்களைப் பாதுகாப்பாக சரிபார்க்கவும் உதவும் ஒரு வழிகாட்டியாக வடிவமைக்கப்பட்டுள்ளது.",
+      "mob-trust-2-title": "நம்பகமான அறிவுத்தளம்",
+      "mob-trust-2-desc": "பேராசிரியர் பார்க் ஜே வூவின் பாரம்பரிய போதனைகள் மற்றும் சான்றளிக்கப்பட்ட இலக்கியங்களை அடிப்படையாகக் கொண்டது.",
+      "mob-trust-3-title": "சிகிச்சையாளர்களின் துணை",
+      "mob-trust-3-desc": "கண்டறியும் சோதனைகளை எளிதாக்கவும் புள்ளி இருப்பிடங்களை சரிபார்க்கவும் நம்பகமான இரண்டாவது கருத்தை வழங்குகிறது."
     }
   };
 
@@ -674,5 +748,84 @@ document.addEventListener('DOMContentLoaded', () => {
       whatsappPopup.classList.remove('show');
     }
   });
+
+
+  // ==========================================
+  // 7. Mobile-Only Simulated Chatbot Interactivity
+  // ==========================================
+  const mobileChatBody = document.getElementById('mobileChatBody');
+  const mobileChatSuggestions = document.getElementById('mobileChatSuggestions');
+
+  const chatAnswers = {
+    en: {
+      headache: "For headaches, you can stimulate the correspondence point on your thumb. According to the Sujok standard correspondence system, the thumb represents the head. Massage the tip of your thumb (especially the pad) using a diagnostic probe, roller, or your fingers. If you find a particularly tender spot, apply pressure there for 1-2 minutes. You can also tape a buckwheat seed or black pepper seed onto that tender spot for continuous stimulation.",
+      correspondence: "Correspondence Therapy is the foundation of Sujok. Developed by Prof. Park Jae Woo, it states that the hands ('Su') and feet ('Jok') are miniature blueprints of the entire body. The body maps onto the hand like this: the thumb represents the head and neck, the middle & ring fingers represent the legs, and the index & little fingers represent the arms. Stimulating active points on these correspondence zones sends healing signals to the corresponding organs.",
+      sixki: "Six Ki (6 Energies) Theory is an advanced Sujok energy concept. It explains that the universe and the human body are governed by six energetic forces: Wind, Heat, Hotness, Humidity, Dryness, and Coldness. Each energy flows along specific meridians in our hands and matches particular organs and emotions. For example, Wind matches the Liver, and Dryness matches the Lungs. Therapists balance these energies using colors, magnets, or needles.",
+      backpain: "To treat lower back pain, locate the correspondence zone on the back of your hand. The lower spine corresponds to the area between the middle and ring fingers, on the dorsal (yang) side of the hand. Locate the tender spots along this spine line and massage them. You can apply Byol magnets (yellow facing the skin to tonify energy, or white to sedate) or tape a chain of seeds (like buckwheat or black pepper seeds) along this spine line for relief."
+    },
+    ta: {
+      headache: "தலைவலிக்கு, உங்கள் பெருவிரலில் உள்ள தொடர்பு புள்ளியை நீங்கள் தூண்டலாம். பெருவிரல் தலையைக் குறிக்கிறது. ஒரு கண்டறியும் கருவி அல்லது விரல் மூலம் பெருவிரலின் நுனியை மசாஜ் செய்யவும். மிகவும் வலியுள்ள புள்ளியைக் கண்டறிந்தால், அங்கே 1-2 நிமிடங்கள் அழுத்தம் கொடுக்கவும். தொடர் தூண்டுதலுக்கு மிளகு விதை ஒன்றை அங்கே ஒட்டலாம்.",
+      correspondence: "தொடர்பு சிகிச்சை (Correspondence Therapy) என்பது சுஜோக்கின் அடிப்படை. கைகளும் கால்களும் முழு உடலின் சிறிய வடிவம் என்று இது கூறுகிறது: பெருவிரல் தலை மற்றும் கழுத்தையும், நடு மற்றும் மோதிர விரல்கள் கால்களையும், ஆள்காட்டி மற்றும் சுண்டு விரல்கள் கைகளையும் குறிக்கின்றன. இந்த புள்ளிகளைத் தூண்டுவது தொடர்புடைய உறுப்புகளுக்கு குணப்படுத்தும் சமிக்ஞைகளை அனுப்புகிறது.",
+      sixki: "சிக்ஸ் கி (6 ஆற்றல்கள்) கோட்பாடு என்பது ஒரு மேம்பட்ட சுஜோக் கருத்து. உடலின் ஆரோக்கியம் ஆறு அத்தியாவசிய ஆற்றல்களால் (காற்று, வெப்பம், அதிவெப்பம், ஈரப்பதம், வறட்சி, குளிர்ச்சி) நிர்வகிக்கப்படுகிறது என்று இது கூறுகிறது. இந்த ஆற்றல்களை வண்ணங்கள், காந்தங்கள் அல்லது ஊசிகள் மூலம் சமநிலைப்படுத்தலாம்.",
+      backpain: "முதுகு வலிக்கு, உங்கள் கையின் பின்புறத்தில் (Yang Side) நடுவிரல் மற்றும் மோதிர விரலுக்கு இடைப்பட்ட பகுதியைத் தூண்ட வேண்டும். அங்கே வலியுள்ள புள்ளிகளைக் கண்டறிந்து மசாஜ் செய்யவும். அக்கு புள்ளிகளில் Byol காந்தங்களையோ அல்லது மிளகு விதைகளையோ ஒட்டி நிவாரணம் பெறலாம்."
+    }
+  };
+
+  const handleSuggestionClick = (questionKey, questionText) => {
+    if (!mobileChatBody) return;
+
+    // Append User Message
+    const userMsg = document.createElement('div');
+    userMsg.className = 'chat-message message-user';
+    userMsg.textContent = questionText;
+    mobileChatBody.appendChild(userMsg);
+    mobileChatBody.scrollTop = mobileChatBody.scrollHeight;
+
+    // Hide suggestion chips temporarily
+    if (mobileChatSuggestions) mobileChatSuggestions.style.display = 'none';
+
+    // Show Typing Indicator
+    const typingIndicator = document.createElement('div');
+    typingIndicator.className = 'typing-indicator';
+    typingIndicator.id = 'chatTypingIndicator';
+    typingIndicator.innerHTML = `
+      <span class="typing-dot"></span>
+      <span class="typing-dot"></span>
+      <span class="typing-dot"></span>
+    `;
+    mobileChatBody.appendChild(typingIndicator);
+    mobileChatBody.scrollTop = mobileChatBody.scrollHeight;
+
+    // Simulate AI response delay
+    setTimeout(() => {
+      // Remove typing indicator
+      const indicator = document.getElementById('chatTypingIndicator');
+      if (indicator) indicator.remove();
+
+      // Retrieve and append AI response
+      const lang = currentLanguage || 'en';
+      const botAnswer = chatAnswers[lang][questionKey] || "Thank you for asking! I will look that up for you.";
+      
+      const botMsg = document.createElement('div');
+      botMsg.className = 'chat-message message-bot';
+      botMsg.textContent = botAnswer;
+      mobileChatBody.appendChild(botMsg);
+      mobileChatBody.scrollTop = mobileChatBody.scrollHeight;
+
+      // Re-enable suggestion chips
+      if (mobileChatSuggestions) mobileChatSuggestions.style.display = 'flex';
+    }, 1200);
+  };
+
+  if (mobileChatSuggestions) {
+    mobileChatSuggestions.addEventListener('click', (e) => {
+      const chip = e.target.closest('.suggest-chip');
+      if (chip) {
+        const questionKey = chip.getAttribute('data-question');
+        const questionText = chip.textContent.trim();
+        handleSuggestionClick(questionKey, questionText);
+      }
+    });
+  }
 
 });
