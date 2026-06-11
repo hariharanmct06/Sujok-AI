@@ -131,7 +131,58 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "modal-title": "Message Sent!",
       "modal-desc": "Thank you for reaching out. A representative from Hari Bots and Business Solutions will contact you shortly.",
-      "modal-close": "Close"
+      "modal-close": "Close",
+      
+      "principles-title": "Sujok Energy & Correspondence",
+      "principles-subtitle": "Understand how Sujok maps the human body's organs and energies onto the hands and feet.",
+      "tab-yin-yang": "Yin & Yang Duality",
+      "tab-six-ki": "Six Ki (6 Energies)",
+      "tab-correspondence": "Organ Correspondence",
+      "yy-title": "Yin & Yang Energy Balance",
+      "yy-desc": "Sujok is built on the Eastern philosophy of Yin and Yang—the two complementary forces that govern health. The human hand has a natural Yin-Yang split that mirrors the body's structure:",
+      "yy-yin-title": "☯ Yin Side (Palm)",
+      "yy-yin-1": "Represents the front of the body",
+      "yy-yin-2": "Softer, lighter, and more sensitive skin",
+      "yy-yin-3": "Hosts internal Yin organs (Heart, Lungs, Liver, Stomach)",
+      "yy-yin-4": "Receives and stores life force energy",
+      "yy-yang-title": "☯ Yang Side (Back of Hand)",
+      "yy-yang-1": "Represents the back of the body",
+      "yy-yang-2": "Harder, darker, and more protective skin",
+      "yy-yang-3": "Hosts spine, kidneys, and bone structures",
+      "yy-yang-4": "Distributes and defends active energy",
+      "sixki-title": "The Six Ki (6 Energies) Theory",
+      "sixki-desc": "According to Triorigin and Six Ki theory, the body's health is maintained by six essential environmental energies. Imbalance in these flows causes illness. Therapists stimulate corresponding finger nodes to sedate or tonify specific energy flows:",
+      "table-header-energy": "Energy",
+      "table-header-color": "Color",
+      "table-header-organs": "Corresponding Organs",
+      "energy-wind": "Wind",
+      "color-green": "Green",
+      "organs-wind": "Liver, Gall Bladder",
+      "energy-heat": "Heat",
+      "color-red": "Red",
+      "organs-heat": "Heart, Small Intestine",
+      "energy-hotness": "Hotness",
+      "color-orange": "Orange",
+      "organs-hotness": "Brain, Spinal Cord",
+      "energy-humidity": "Humidity",
+      "color-yellow": "Yellow",
+      "organs-humidity": "Spleen, Stomach",
+      "energy-dryness": "Dryness",
+      "color-brown": "Brown",
+      "organs-dryness": "Lungs, Large Intestine",
+      "energy-coldness": "Coldness",
+      "color-blue": "Blue / Black",
+      "organs-coldness": "Kidneys, Urinary Bladder",
+      "correspondence-title": "Standard Organ Correspondence",
+      "correspondence-desc": "The Standard Correspondence System treats the hands and feet as miniature representations of the entire body. When an organ is diseased, active points on the correspondence zone become tender. Stimulating these points triggers immediate healing:",
+      "map-head-title": "Thumb:",
+      "map-head-desc": "Corresponds to the Head and Neck (Brain, Eyes, Nose, Mouth).",
+      "map-limbs-title": "Fingers:",
+      "map-limbs-desc": "Index and Little fingers map to Arms; Middle and Ring fingers map to Legs.",
+      "map-chest-title": "Upper Palm:",
+      "map-chest-desc": "Corresponds to the Chest cavity (Heart, Lungs).",
+      "map-abdomen-title": "Lower Palm:",
+      "map-abdomen-desc": "Corresponds to the Abdominal cavity (Stomach, Liver, Gall Bladder, Intestines)."
     },
     ta: {
       "announcement": "⚡ சுஜோக் AI BOT உடன் இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்!",
@@ -256,7 +307,58 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "modal-title": "செய்தி அனுப்பப்பட்டது!",
       "modal-desc": "தொடர்பு கொண்டதற்கு நன்றி. ஹரி பாட்ஸ் மற்றும் பிசினஸ் சொல்யூஷன்ஸ் பிரதிநிதி உங்களை விரைவில் தொடர்புகொள்வார்.",
-      "modal-close": "மூடுக"
+      "modal-close": "மூடுக",
+      
+      "principles-title": "சுஜோக் ஆற்றல் & தொடர்பு",
+      "principles-subtitle": "மனித உடலின் உறுப்புகளையும் ஆற்றல்களையும் கைகள் மற்றும் கால்களில் சுஜோக் எவ்வாறு வரைபடமாக்குகிறது என்பதைப் புரிந்துகொள்ளுங்கள்.",
+      "tab-yin-yang": "யின் & யான் இருமை",
+      "tab-six-ki": "சிக்ஸ் கி (6 ஆற்றல்கள்)",
+      "tab-correspondence": "உறுப்புகளின் தொடர்பு வரைபடம்",
+      "yy-title": "யின் & யான் ஆற்றல் சமநிலை",
+      "yy-desc": "சுஜோக் என்பது ஆரோக்கியத்தை ஆளும் இரண்டு நிரப்பு சக்திகளான யின் மற்றும் யான் என்ற கீழைநாட்டு தத்துவத்தின் அடிப்படையில் கட்டமைக்கப்பட்டுள்ளது. மனித கை உடலின் அமைப்பை பிரதிபலிக்கும் ஒரு இயற்கையான யின்-யான் பிரிவைக் கொண்டுள்ளது:",
+      "yy-yin-title": "☯ யின் பக்கம் (உள்ளங்கை)",
+      "yy-yin-1": "உடலின் முன் பக்கத்தைக் குறிக்கிறது",
+      "yy-yin-2": "மென்மையான, வெளிறிய மற்றும் அதிக உணர்திறன் கொண்ட தோல்",
+      "yy-yin-3": "உட்புற யின் உறுப்புகளைக் கொண்டுள்ளது (இதயம், நுரையீரல், கல்லீரல், வயிறு)",
+      "yy-yin-4": "உயிர் ஆற்றலை ஏற்றுக்கொண்டு சேமிக்கிறது",
+      "yy-yang-title": "☯ யான் பக்கம் (கையின் பின்புறம்)",
+      "yy-yang-1": "உடலின் பின் பக்கத்தைக் குறிக்கிறது",
+      "yy-yang-2": "கடினமான, இருண்ட மற்றும் அதிக பாதுகாப்பு கொண்ட தோல்",
+      "yy-yang-3": "முதுகெலும்பு, சிறுநீரகங்கள் மற்றும் எலும்பு அமைப்புகளைக் கொண்டுள்ளது",
+      "yy-yang-4": "செயலில் உள்ள ஆற்றலை விநியோகிக்கிறது மற்றும் பாதுகாக்கிறது",
+      "sixki-title": "சிக்ஸ் கி (6 ஆற்றல்கள்) கோட்பாடு",
+      "sixki-desc": "டிரைஓரிஜின் மற்றும் சிக்ஸ் கி கோட்பாட்டின் படி, உடலின் ஆரோக்கியம் ஆறு அத்தியாவசிய சுற்றுச்சூழல் ஆற்றல்களால் பராமரிக்கப்படுகிறது. இந்த ஓட்டங்களில் ஏற்படும் ஏற்றத்தாழ்வு நோயை உண்டாக்குகிறது. சிகிச்சையாளர்கள் குறிப்பிட்ட ஆற்றல் ஓட்டங்களைக் குறைக்க அல்லது அதிகரிக்க விரல்களில் உள்ள புள்ளிகளைத் தூண்டுகிறார்கள்:",
+      "table-header-energy": "ஆற்றல்",
+      "table-header-color": "வண்ணம்",
+      "table-header-organs": "தொடர்புடைய உறுப்புகள்",
+      "energy-wind": "காற்று (Wind)",
+      "color-green": "பச்சை",
+      "organs-wind": "கல்லீரல், பித்தப்பை",
+      "energy-heat": "வெப்பம் (Heat)",
+      "color-red": "சிவப்பு",
+      "organs-heat": "இதயம், சிறுகுடல்",
+      "energy-hotness": "அதிவெப்பம் (Hotness)",
+      "color-orange": "ஆரஞ்சு",
+      "organs-hotness": "மூளை, தண்டுவடம்",
+      "energy-humidity": "ஈரப்பதம் (Humidity)",
+      "color-yellow": "மஞ்சள்",
+      "organs-humidity": "மண்ணீரல், வயிறு",
+      "energy-dryness": "வறட்சி (Dryness)",
+      "color-brown": "பழுப்பு",
+      "organs-dryness": "நுரையீரல், பெருங்குடல்",
+      "energy-coldness": "குளிர்ச்சி (Coldness)",
+      "color-blue": "நீலம் / கருப்பு",
+      "organs-coldness": "சிறுநீரகங்கள், சிறுநீர்ப்பை",
+      "correspondence-title": "நிலையான உறுப்பு தொடர்பு வரைபடம்",
+      "correspondence-desc": "நிலையான தொடர்பு முறை கைகள் மற்றும் கால்களை முழு உடலின் சிறிய பிரதிநிதித்துவமாக நடத்துகிறது. ஒரு உறுப்பு நோய்வாய்ப்படும்போது, தொடர்பு மண்டலத்தில் உள்ள புள்ளிகள் மென்மையாகின்றன. இந்த புள்ளிகளைத் தூண்டுவது உடனடி குணப்படுத்துதலைத் தூண்டுகிறது:",
+      "map-head-title": "பெருவிரல்:",
+      "map-head-desc": "தலை மற்றும் கழுத்துக்கு ஒத்திருக்கிறது (மூளை, கண்கள், மூக்கு, வாய்).",
+      "map-limbs-title": "விரல்கள்:",
+      "map-limbs-desc": "ஆள்காட்டி மற்றும் சுண்டு விரல்கள் கைகளையும், நடு மற்றும் மோதிர விரல்கள் கால்களையும் குறிக்கின்றன.",
+      "map-chest-title": "உள்ளங்கையின் மேல் பகுதி:",
+      "map-chest-desc": "மார்புப் பகுதிக்கு ஒத்திருக்கிறது (இதயம், நுரையீரல்).",
+      "map-abdomen-title": "உள்ளங்கையின் கீழ் பகுதி:",
+      "map-abdomen-desc": "வயிற்றுப் பகுதிக்கு ஒத்திருக்கிறது (வயிறு, கல்லீரல், பித்தப்பை, குடல்)."
     }
   };
 
@@ -441,6 +543,33 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+
+  // ==========================================
+  // 4.5. Sujok Principles Tabs Functionality
+  // ==========================================
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const tabPanels = document.querySelectorAll('.tab-panel');
+
+  if (tabButtons && tabPanels) {
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-tab');
+        
+        // Update active class on buttons
+        tabButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Update active class on panels
+        tabPanels.forEach(panel => {
+          panel.classList.remove('active');
+          if (panel.getAttribute('id') === `panel-${targetTab}`) {
+            panel.classList.add('active');
+          }
+        });
+      });
+    });
+  }
 
 
   // ==========================================

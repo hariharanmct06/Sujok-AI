@@ -382,7 +382,154 @@
       </div>
     </section>
 
+    <!-- Sujok Principles Section (Yin-Yang, Six Ki, Organ Correspondence) -->
+    <section class="principles-section" id="principles">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="principles-title">Sujok Energy & Correspondence</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-translate="principles-subtitle">Understand how Sujok maps the human body's organs and energies onto the hands and feet.</p>
+        </div>
 
+        <div class="principles-tabs">
+          <button class="tab-btn active" data-tab="yin-yang" data-translate="tab-yin-yang">Yin & Yang Duality</button>
+          <button class="tab-btn" data-tab="six-ki" data-translate="tab-six-ki">Six Ki (6 Energies)</button>
+          <button class="tab-btn" data-tab="correspondence" data-translate="tab-correspondence">Organ Correspondence</button>
+        </div>
+
+        <div class="principles-content">
+          <!-- Tab 1: Yin & Yang -->
+          <div class="tab-panel active" id="panel-yin-yang">
+            <div class="principles-text-col">
+              <h3 data-translate="yy-title">Yin & Yang Energy Balance</h3>
+              <p data-translate="yy-desc">Sujok is built on the Eastern philosophy of Yin and Yang—the two complementary forces that govern health. The human hand has a natural Yin-Yang split that mirrors the body's structure:</p>
+              
+              <div class="yin-yang-split-grid">
+                <div class="yy-side-card yy-side-yin">
+                  <h4 data-translate="yy-yin-title">☯ Yin Side (Palm)</h4>
+                  <ul>
+                    <li data-translate="yy-yin-1">Represents the front of the body</li>
+                    <li data-translate="yy-yin-2">Softer, lighter, and more sensitive skin</li>
+                    <li data-translate="yy-yin-3">Hosts internal Yin organs (Heart, Lungs, Liver, Stomach)</li>
+                    <li data-translate="yy-yin-4">Receives and stores life force energy</li>
+                  </ul>
+                </div>
+                
+                <div class="yy-side-card yy-side-yang">
+                  <h4 data-translate="yy-yang-title">☯ Yang Side (Back of Hand)</h4>
+                  <ul>
+                    <li data-translate="yy-yang-1">Represents the back of the body</li>
+                    <li data-translate="yy-yang-2">Harder, darker, and more protective skin</li>
+                    <li data-translate="yy-yang-3">Hosts spine, kidneys, and bone structures</li>
+                    <li data-translate="yy-yang-4">Distributes and defends active energy</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="principles-visual-col">
+              <svg viewBox="0 0 240 240" width="300" height="300" style="filter: drop-shadow(0 4px 10px rgba(0,0,0,0.08));">
+                <circle cx="120" cy="120" r="100" fill="none" stroke="var(--border-color)" stroke-width="2"/>
+                <path d="M120 20a100 100 0 0 1 0 200c-55.23 0-100-44.77-100-100S64.77 20 120 20z" fill="var(--bg-light)"/>
+                <path d="M120 220a100 100 0 0 1 0-200c55.23 0 100 44.77 100 100s-44.77 100-100 100z" fill="var(--primary-navy)"/>
+                <path d="M120 20a50 50 0 0 0 0 100 50 50 0 0 1 0 100" fill="var(--primary-navy)"/>
+                <circle cx="120" cy="70" r="15" fill="var(--primary-navy)"/>
+                <circle cx="120" cy="170" r="15" fill="var(--bg-white)"/>
+                <text x="75" y="125" fill="var(--primary-navy)" font-family="Outfit" font-size="14" font-weight="700" text-anchor="middle">YIN</text>
+                <text x="165" y="125" fill="var(--bg-white)" font-family="Outfit" font-size="14" font-weight="700" text-anchor="middle">YANG</text>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Tab 2: Six Ki -->
+          <div class="tab-panel" id="panel-six-ki">
+            <div class="principles-text-col">
+              <h3 data-translate="sixki-title">The Six Ki (6 Energies) Theory</h3>
+              <p data-translate="sixki-desc">According to Triorigin and Six Ki theory, the body's health is maintained by six essential environmental energies. Imbalance in these flows causes illness. Therapists stimulate corresponding finger nodes to sedate or tonify specific energy flows:</p>
+              
+              <div class="sixki-table-wrapper">
+                <table class="sixki-table">
+                  <thead>
+                    <tr>
+                      <th data-translate="table-header-energy">Energy</th>
+                      <th data-translate="table-header-color">Color</th>
+                      <th data-translate="table-header-organs">Corresponding Organs</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-translate="energy-wind" style="font-weight:700;">Wind</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #10B981;"></span><span data-translate="color-green">Green</span></span>
+                      </td>
+                      <td data-translate="organs-wind">Liver, Gall Bladder</td>
+                    </tr>
+                    <tr>
+                      <td data-translate="energy-heat" style="font-weight:700;">Heat</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #EF4444;"></span><span data-translate="color-red">Red</span></span>
+                      </td>
+                      <td data-translate="organs-heat">Heart, Small Intestine</td>
+                    </tr>
+                    <tr>
+                      <td data-translate="energy-hotness" style="font-weight:700;">Hotness</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #F59E0B;"></span><span data-translate="color-orange">Orange</span></span>
+                      </td>
+                      <td data-translate="organs-hotness">Brain, Spinal Cord</td>
+                    </tr>
+                    <tr>
+                      <td data-translate="energy-humidity" style="font-weight:700;">Humidity</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #FBBF24;"></span><span data-translate="color-yellow">Yellow</span></span>
+                      </td>
+                      <td data-translate="organs-humidity">Spleen, Stomach</td>
+                    </tr>
+                    <tr>
+                      <td data-translate="energy-dryness" style="font-weight:700;">Dryness</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #78350F;"></span><span data-translate="color-brown">Brown</span></span>
+                      </td>
+                      <td data-translate="organs-dryness">Lungs, Large Intestine</td>
+                    </tr>
+                    <tr>
+                      <td data-translate="energy-coldness" style="font-weight:700;">Coldness</td>
+                      <td>
+                        <span class="sixki-color-badge"><span class="sixki-dot" style="background-color: #3B82F6;"></span><span data-translate="color-blue">Blue / Black</span></span>
+                      </td>
+                      <td data-translate="organs-coldness">Kidneys, Urinary Bladder</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            <div class="principles-visual-col">
+              <img src="assets/sujok-six-ki-flow.png" alt="Sujok Six Ki energy flow diagram" class="infographic-img">
+            </div>
+          </div>
+
+          <!-- Tab 3: Organ Correspondence -->
+          <div class="tab-panel" id="panel-correspondence">
+            <div class="principles-text-col">
+              <h3 data-translate="correspondence-title">Standard Organ Correspondence</h3>
+              <p data-translate="correspondence-desc">The Standard Correspondence System treats the hands and feet as miniature representations of the entire body. When an organ is diseased, active points on the correspondence zone become tender. Stimulating these points triggers immediate healing:</p>
+              
+              <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 10px; color: var(--text-medium); font-size: 1.05rem;">
+                <li><strong data-translate="map-head-title">Thumb:</strong> <span data-translate="map-head-desc">Corresponds to the Head and Neck (Brain, Eyes, Nose, Mouth).</span></li>
+                <li><strong data-translate="map-limbs-title">Fingers:</strong> <span data-translate="map-limbs-desc">Index and Little fingers map to Arms; Middle and Ring fingers map to Legs.</span></li>
+                <li><strong data-translate="map-chest-title">Upper Palm:</strong> <span data-translate="map-chest-desc">Corresponds to the Chest cavity (Heart, Lungs).</span></li>
+                <li><strong data-translate="map-abdomen-title">Lower Palm:</strong> <span data-translate="map-abdomen-desc">Corresponds to the Abdominal cavity (Stomach, Liver, Gall Bladder, Intestines).</span></li>
+              </ul>
+            </div>
+            
+            <div class="principles-visual-col">
+              <img src="assets/sujok-organ-map.png" alt="Sujok organ correspondence map" class="infographic-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- FAQ Section -->
     <section class="faq-section" id="faq">
