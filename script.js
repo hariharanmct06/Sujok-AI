@@ -129,11 +129,11 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "contact-title": "Get in Touch",
       "contact-subtitle": "Have questions about Sujok AI BOT or need support? Send us a message or chat with us directly on WhatsApp.",
-      "form-title": "Send a Message",
+      "form-title": "Enquire Now",
       "form-name-label": "Full Name",
       "form-email-label": "Email Address",
       "form-msg-label": "Message",
-      "form-submit": "Send Message",
+      "form-submit": "Enquire Now",
       "contact-direct-title": "Direct Contact",
       "contact-direct-desc": "Reach out to our support and marketing teams directly through WhatsApp for immediate inquiries about integration, licensing, or collaborations.",
       "contact-wa-support": "📱 WhatsApp (Support)",
@@ -274,11 +274,11 @@ document.addEventListener('DOMContentLoaded', () => {
       
       "contact-title": "தொடர்பு கொள்க",
       "contact-subtitle": "சுஜோக் AI BOT பற்றி ஏதேனும் கேள்விகள் உள்ளதா? எங்களுக்கு செய்தி அனுப்புங்கள் அல்லது வாட்ஸ்அப் மூலம் நேரடியாக அரட்டையடிக்கவும்.",
-      "form-title": "செய்தி அனுப்புக",
+      "form-title": "இப்போதே விசாரிக்கவும்",
       "form-name-label": "முழு பெயர்",
       "form-email-label": "மின்னஞ்சல் முகவரி",
       "form-msg-label": "செய்தி",
-      "form-submit": "செய்தி அனுப்புக",
+      "form-submit": "இப்போதே விசாரிக்கவும்",
       "contact-direct-title": "நேரடி தொடர்பு",
       "contact-direct-desc": "விவரங்கள் மற்றும் வணிகத் தேவைகளுக்கு எங்களது வாட்ஸ்அப் எண்களைத் தொடர்பு கொள்ளுங்கள்.",
       "contact-wa-support": "📱 வாட்ஸ்அப் (ஆதரவு)",
@@ -494,16 +494,49 @@ document.addEventListener('DOMContentLoaded', () => {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
       
+      const submitBtn = contactForm.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+      
       // Perform simple validation check
       const name = document.getElementById('contactName').value.trim();
       const email = document.getElementById('contactEmail').value.trim();
       const message = document.getElementById('contactMessage').value.trim();
 
       if (name && email && message) {
-        // Show success modal
-        successModal.classList.add('show');
-        document.body.classList.add('no-scroll');
-        contactForm.reset();
+        // Change button state to loading
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = currentLanguage === 'ta' ? 'அனுப்பப்படுகிறது...' : 'Sending...';
+
+        // Submit form data via FormSubmit.co AJAX to hariharanmct06@gmail.com
+        fetch('https://formsubmit.co/ajax/hariharanmct06@gmail.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+            _subject: 'New Sujok AI BOT Inquiry from ' + name
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          // Show success modal
+          successModal.classList.add('show');
+          document.body.classList.add('no-scroll');
+          contactForm.reset();
+        })
+        .catch(error => {
+          console.error('Error submitting form:', error);
+          alert(currentLanguage === 'ta' ? 'ஏதோ தவறு நடந்துவிட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.' : 'Something went wrong. Please try again.');
+        })
+        .finally(() => {
+          // Restore button state
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalBtnText;
+        });
       }
     });
   }
