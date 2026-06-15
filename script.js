@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   const translations = {
     en: {
+      "title": "Sujok AI BOT (Coming Soon) - Your Intelligent Sujok Therapy Assistant",
       "announcement": "⚡ Sujok AI BOT is COMING SOON! Experience the Future of Natural Healing.",
       "badge-coming-soon": "COMING SOON",
       "nav-home": "Home",
@@ -109,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "nav-cta": "Get in Touch",
       
       "hero-badge": "AI Healthcare Assistant",
-      "hero-title": "Ask Anything About <span class=\"gradient-text\">Sujok Therapy</span>",
+      "hero-title": "Ask Anything About <span class=\"gradient-text\">Sujok Therapy</span> <span class=\"badge-coming-soon\" style=\"font-size: 0.9rem; padding: 4px 10px;\">Coming Soon</span>",
       "hero-subtitle": "Powered by AI. Built for Sujok practitioners, students, and therapists.",
       "hero-description": "Access Sujok knowledge, correspondence systems, Six Ki theory, and seed therapy instantly.",
       "hero-cta-get": "Get Sujok AI BOT",
@@ -274,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "map-abdomen-title": "Lower Palm:",
       "map-abdomen-desc": "Corresponds to the Abdominal cavity (Stomach, Liver, Gall Bladder, Intestines).",
       // Mobile redesign keys
-      "mobile-hero-title": "Your AI-Powered Sujok Assistant",
+      "mobile-hero-title": "Your AI-Powered Sujok Assistant <span class=\"badge-coming-soon\" style=\"font-size: 0.8rem; padding: 4px 8px; display: inline-block; vertical-align: middle;\">Coming Soon</span>",
       "mobile-hero-subtitle": "Get instant answers about Sujok Therapy, Correspondence Systems, Six Ki, Treatment Methods, and more.",
       "mobile-hero-cta-chat": "Start Chatting",
       "chat-status-active": "Active Now",
@@ -323,6 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "loader-powered": "Powered by <span class=\"footer-bold\">Hari Bots & Business Solutions</span>"
     },
     ta: {
+      "title": "சுஜோக் AI BOT (விரைவில் வருகிறது) - உங்களின் அறிவார்ந்த சுஜோக் சிகிச்சை உதவியாளர்",
       "announcement": "⚡ சுஜோக் AI BOT விரைவில் வருகிறது! இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்.",
       "badge-coming-soon": "விரைவில் வருகிறது",
       "nav-home": "முகப்பு",
@@ -334,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "nav-cta": "தொடர்பு கொள்க",
       
       "hero-badge": "AI மருத்துவ உதவியாளர்",
-      "hero-title": "சுஜோக் சிகிச்சை பற்றி <span class=\"gradient-text\">எது வேண்டுமானாலும் கேளுங்கள்</span>",
+      "hero-title": "சுஜோக் சிகிச்சை பற்றி <span class=\"gradient-text\">எது வேண்டுமானாலும் கேளுங்கள்</span> <span class=\"badge-coming-soon\" style=\"font-size: 0.9rem; padding: 4px 10px;\">விரைவில் வருகிறது</span>",
       "hero-subtitle": "AI மூலம் இயக்கப்படுகிறது. சுஜோக் பயிற்சியாளர்கள், மாணவர்கள் மற்றும் மருத்துவர்களுக்காக உருவானது.",
       "hero-description": "சுஜோக் அறிவு, தொடர்பு அமைப்புகள், சிக்ஸ் கி கொள்கைகள் மற்றும் விதை சிகிச்சை முறைகளை உடனுக்குடன் அணுகலாம்.",
       "hero-cta-get": "சுஜோக் AI BOT பெறுக",
@@ -495,7 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "map-abdomen-title": "உள்ளங்கையின் கீழ் பகுதி:",
       "map-abdomen-desc": "வயிற்றுப் பகுதிக்கு ஒத்திருக்கிறது (வயிறு, கல்லீரல், பித்தப்பை, குடல்).",
       // Mobile redesign keys (Tamil)
-      "mobile-hero-title": "உங்களின் AI-ஆற்றல் கொண்ட சுஜோக் உதவியாளர்",
+      "mobile-hero-title": "உங்களின் AI-ஆற்றல் கொண்ட சுஜோக் உதவியாளர் <span class=\"badge-coming-soon\" style=\"font-size: 0.8rem; padding: 4px 8px; display: inline-block; vertical-align: middle;\">விரைவில் வருகிறது</span>",
       "mobile-hero-subtitle": "சுஜோக் சிகிச்சை, தொடர்பு அமைப்புகள், சிக்ஸ் கி, சிகிச்சை முறைகள் மற்றும் பலவற்றைப் பற்றிய உடனடி பதில்களைப் பெறுங்கள்.",
       "mobile-hero-cta-chat": "அரட்டையைத் தொடங்கு",
       "chat-status-active": "இப்போது செயல்பாட்டில்",
@@ -557,6 +559,11 @@ document.addEventListener('DOMContentLoaded', () => {
         el.innerHTML = text;
       }
     });
+
+    // Specifically handle page document title
+    if (translations[lang]["title"]) {
+      document.title = translations[lang]["title"];
+    }
   };
 
   const handleLanguageToggle = (lang) => {
