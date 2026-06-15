@@ -90,11 +90,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const translations = {
     en: {
-      "announcement": "⚡ Experience the Future of Natural Healing with Sujok AI BOT!",
+      "announcement": "⚡ Sujok AI BOT is COMING SOON! Experience the Future of Natural Healing.",
+      "badge-coming-soon": "COMING SOON",
       "nav-home": "Back to Home",
       "nav-cta": "Get in Touch",
       
-      "title": "Sujok AI BOT - Treatment Modalities",
+      "title": "Sujok AI BOT (Coming Soon) - Treatment Modalities",
       "header-title": "Sujok Therapy Modalities",
       "header-subtitle": "Explore the natural methods used in Sujok to stimulate healing points and restore energy balance.",
       
@@ -133,11 +134,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "loader-powered": "Powered by <span class=\"footer-bold\">Hari Bots & Business Solutions</span>"
     },
     ta: {
-      "announcement": "⚡ சுஜோக் AI BOT உடன் இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்!",
+      "announcement": "⚡ சுஜோக் AI BOT விரைவில் வருகிறது! இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்.",
+      "badge-coming-soon": "விரைவில் வருகிறது",
       "nav-home": "முகப்பிற்குச் செல்லவும்",
       "nav-cta": "தொடர்பு கொள்க",
       
-      "title": "சுஜோக் AI BOT - சிகிச்சை முறைகள்",
+      "title": "சுஜோக் AI BOT (விரைவில் வருகிறது) - சிகிச்சை முறைகள்",
       "header-title": "சுஜோக் சிகிச்சை முறைகள்",
       "header-subtitle": "குணப்படுத்தும் புள்ளிகளைத் தூண்டி, ஆற்றல் சமநிலையை மீட்டெடுக்க சுஜோக்கில் பயன்படுத்தப்படும் இயற்கை முறைகளை ஆராயுங்கள்.",
       

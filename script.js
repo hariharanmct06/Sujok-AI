@@ -98,7 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   const translations = {
     en: {
-      "announcement": "⚡ Experience the Future of Natural Healing with Sujok AI BOT!",
+      "announcement": "⚡ Sujok AI BOT is COMING SOON! Experience the Future of Natural Healing.",
+      "badge-coming-soon": "COMING SOON",
       "nav-home": "Home",
       "nav-about": "About Sujok",
       "nav-founder": "Founder",
@@ -322,7 +323,8 @@ document.addEventListener('DOMContentLoaded', () => {
       "loader-powered": "Powered by <span class=\"footer-bold\">Hari Bots & Business Solutions</span>"
     },
     ta: {
-      "announcement": "⚡ சுஜோக் AI BOT உடன் இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்!",
+      "announcement": "⚡ சுஜோக் AI BOT விரைவில் வருகிறது! இயற்கை மருத்துவத்தின் எதிர்காலத்தை அனுபவிக்கவும்.",
+      "badge-coming-soon": "விரைவில் வருகிறது",
       "nav-home": "முகப்பு",
       "nav-about": "சுஜோக் பற்றி",
       "nav-founder": "நிறுவனர்",

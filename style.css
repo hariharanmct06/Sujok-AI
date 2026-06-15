@@ -3320,4 +3320,21 @@ section {
   }
 }
 
+/* Coming Soon Badge */
+.badge-coming-soon {
+  background-color: var(--accent-teal);
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  margin-left: 8px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+  white-space: nowrap;
+}
+
 
