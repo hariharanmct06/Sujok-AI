@@ -2086,10 +2086,30 @@ section {
 /* Small Tablets & Mobile Menu Trigger */
 @media (max-width: 768px) {
   .desktop-nav,
-  .header-cta {
+  .header-actions-wrapper {
     display: none;
   }
   
+  .logo-area {
+    gap: 8px;
+  }
+
+  .brand-logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+
+  .badge-coming-soon {
+    font-size: 0.6rem;
+    padding: 2px 6px;
+    margin-left: 6px;
+  }
+
   .mobile-menu-toggle {
     display: flex;
   }
